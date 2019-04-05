@@ -2,20 +2,20 @@
 <rss version="2.0" xmlns:atom="http://www.w3.org/2005/Atom">
   <channel>
     <title>Java on Lina&#39;s Blog</title>
-    <link>http://example.com/tags/java/</link>
+    <link>https://leenahere.github.io/tags/java/</link>
     <description>Recent content in Java on Lina&#39;s Blog</description>
     <generator>Hugo -- gohugo.io</generator>
     <language>en-us</language>
     
-	<atom:link href="http://example.com/tags/java/index.xml" rel="self" type="application/rss+xml" />
+	<atom:link href="https://leenahere.github.io/tags/java/index.xml" rel="self" type="application/rss+xml" />
     
     
     <item>
       <title>First Hackathon</title>
-      <link>http://example.com/projects/nasahackathon/</link>
+      <link>https://leenahere.github.io/projects/nasahackathon/</link>
       <pubDate>Mon, 01 Jan 0001 00:00:00 +0000</pubDate>
       
-      <guid>http://example.com/projects/nasahackathon/</guid>
+      <guid>https://leenahere.github.io/projects/nasahackathon/</guid>
       <description>In 2016 I participated in the NASA International Space Apps Challenge in Leipzig. In a team of three we programmed an Android app to predict delays of flights to and from the airport Leipzig/Halle (LEJ). The repository can be found here.</description>
     </item>
     

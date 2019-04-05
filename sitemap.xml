@@ -3,178 +3,178 @@
   xmlns:xhtml="http://www.w3.org/1999/xhtml">
   
   <url>
-    <loc>http://example.com/projects/bachelorthesis/</loc>
+    <loc>https://leenahere.github.io/projects/bachelorthesis/</loc>
   </url>
   
   <url>
-    <loc>http://example.com/projects/smartdriving/</loc>
+    <loc>https://leenahere.github.io/projects/smartdriving/</loc>
   </url>
   
   <url>
-    <loc>http://example.com/projects/paperschoolrobots/</loc>
+    <loc>https://leenahere.github.io/projects/paperschoolrobots/</loc>
   </url>
   
   <url>
-    <loc>http://example.com/projects/codegirlsarduino/</loc>
+    <loc>https://leenahere.github.io/projects/codegirlsarduino/</loc>
   </url>
   
   <url>
-    <loc>http://example.com/projects/dghd/</loc>
+    <loc>https://leenahere.github.io/projects/dghd/</loc>
   </url>
   
   <url>
-    <loc>http://example.com/projects/mcaheater/</loc>
+    <loc>https://leenahere.github.io/projects/mcaheater/</loc>
   </url>
   
   <url>
-    <loc>http://example.com/projects/geneticalgorithm/</loc>
+    <loc>https://leenahere.github.io/projects/geneticalgorithm/</loc>
   </url>
   
   <url>
-    <loc>http://example.com/projects/pvs/</loc>
+    <loc>https://leenahere.github.io/projects/pvs/</loc>
   </url>
   
   <url>
-    <loc>http://example.com/projects/nasahackathon/</loc>
+    <loc>https://leenahere.github.io/projects/nasahackathon/</loc>
   </url>
   
   <url>
-    <loc>http://example.com/blog/first-post/</loc>
+    <loc>https://leenahere.github.io/blog/first-post/</loc>
     <lastmod>2019-04-02T00:00:00+00:00</lastmod>
   </url>
   
   <url>
-    <loc>http://example.com/tags/ai/</loc>
+    <loc>https://leenahere.github.io/tags/ai/</loc>
     <priority>0</priority>
   </url>
   
   <url>
-    <loc>http://example.com/tags/android/</loc>
+    <loc>https://leenahere.github.io/tags/android/</loc>
     <priority>0</priority>
   </url>
   
   <url>
-    <loc>http://example.com/tags/arduino/</loc>
+    <loc>https://leenahere.github.io/tags/arduino/</loc>
     <priority>0</priority>
   </url>
   
   <url>
-    <loc>http://example.com/tags/autonomousdriving/</loc>
+    <loc>https://leenahere.github.io/tags/autonomousdriving/</loc>
     <priority>0</priority>
   </url>
   
   <url>
-    <loc>http://example.com/blog/</loc>
-    <lastmod>2019-04-02T00:00:00+00:00</lastmod>
-    <priority>0</priority>
-  </url>
-  
-  <url>
-    <loc>http://example.com/tags/c&#43;&#43;/</loc>
-    <priority>0</priority>
-  </url>
-  
-  <url>
-    <loc>http://example.com/categories/</loc>
-    <priority>0</priority>
-  </url>
-  
-  <url>
-    <loc>http://example.com/tags/education/</loc>
-    <priority>0</priority>
-  </url>
-  
-  <url>
-    <loc>http://example.com/tags/go/</loc>
-    <priority>0</priority>
-  </url>
-  
-  <url>
-    <loc>http://example.com/tags/java/</loc>
-    <priority>0</priority>
-  </url>
-  
-  <url>
-    <loc>http://example.com/</loc>
+    <loc>https://leenahere.github.io/blog/</loc>
     <lastmod>2019-04-02T00:00:00+00:00</lastmod>
     <priority>0</priority>
   </url>
   
   <url>
-    <loc>http://example.com/tags/nodejs/</loc>
+    <loc>https://leenahere.github.io/tags/c&#43;&#43;/</loc>
     <priority>0</priority>
   </url>
   
   <url>
-    <loc>http://example.com/tags/nontech/</loc>
+    <loc>https://leenahere.github.io/categories/</loc>
+    <priority>0</priority>
+  </url>
+  
+  <url>
+    <loc>https://leenahere.github.io/tags/education/</loc>
+    <priority>0</priority>
+  </url>
+  
+  <url>
+    <loc>https://leenahere.github.io/tags/go/</loc>
+    <priority>0</priority>
+  </url>
+  
+  <url>
+    <loc>https://leenahere.github.io/tags/java/</loc>
+    <priority>0</priority>
+  </url>
+  
+  <url>
+    <loc>https://leenahere.github.io/</loc>
     <lastmod>2019-04-02T00:00:00+00:00</lastmod>
     <priority>0</priority>
   </url>
   
   <url>
-    <loc>http://example.com/projects/</loc>
+    <loc>https://leenahere.github.io/tags/nodejs/</loc>
     <priority>0</priority>
   </url>
   
   <url>
-    <loc>http://example.com/tags/python/</loc>
-    <priority>0</priority>
-  </url>
-  
-  <url>
-    <loc>http://example.com/tags/raspberrypi/</loc>
-    <priority>0</priority>
-  </url>
-  
-  <url>
-    <loc>http://example.com/tags/react/</loc>
-    <priority>0</priority>
-  </url>
-  
-  <url>
-    <loc>http://example.com/tags/robotics/</loc>
-    <priority>0</priority>
-  </url>
-  
-  <url>
-    <loc>http://example.com/tags/social/</loc>
-    <priority>0</priority>
-  </url>
-  
-  <url>
-    <loc>http://example.com/tags/study/</loc>
-    <priority>0</priority>
-  </url>
-  
-  <url>
-    <loc>http://example.com/tags/</loc>
+    <loc>https://leenahere.github.io/tags/nontech/</loc>
     <lastmod>2019-04-02T00:00:00+00:00</lastmod>
     <priority>0</priority>
   </url>
   
   <url>
-    <loc>http://example.com/tags/theoretical/</loc>
+    <loc>https://leenahere.github.io/projects/</loc>
     <priority>0</priority>
   </url>
   
   <url>
-    <loc>http://example.com/tags/thesis/</loc>
+    <loc>https://leenahere.github.io/tags/python/</loc>
+    <priority>0</priority>
+  </url>
+  
+  <url>
+    <loc>https://leenahere.github.io/tags/raspberrypi/</loc>
+    <priority>0</priority>
+  </url>
+  
+  <url>
+    <loc>https://leenahere.github.io/tags/react/</loc>
+    <priority>0</priority>
+  </url>
+  
+  <url>
+    <loc>https://leenahere.github.io/tags/robotics/</loc>
+    <priority>0</priority>
+  </url>
+  
+  <url>
+    <loc>https://leenahere.github.io/tags/social/</loc>
+    <priority>0</priority>
+  </url>
+  
+  <url>
+    <loc>https://leenahere.github.io/tags/study/</loc>
+    <priority>0</priority>
+  </url>
+  
+  <url>
+    <loc>https://leenahere.github.io/tags/</loc>
     <lastmod>2019-04-02T00:00:00+00:00</lastmod>
     <priority>0</priority>
   </url>
   
   <url>
-    <loc>http://example.com/tags/web/</loc>
+    <loc>https://leenahere.github.io/tags/theoretical/</loc>
     <priority>0</priority>
   </url>
   
   <url>
-    <loc>http://example.com/tags/wordpress/</loc>
+    <loc>https://leenahere.github.io/tags/thesis/</loc>
+    <lastmod>2019-04-02T00:00:00+00:00</lastmod>
     <priority>0</priority>
   </url>
   
   <url>
-    <loc>http://example.com/tags/work/</loc>
+    <loc>https://leenahere.github.io/tags/web/</loc>
+    <priority>0</priority>
+  </url>
+  
+  <url>
+    <loc>https://leenahere.github.io/tags/wordpress/</loc>
+    <priority>0</priority>
+  </url>
+  
+  <url>
+    <loc>https://leenahere.github.io/tags/work/</loc>
     <priority>0</priority>
   </url>
   

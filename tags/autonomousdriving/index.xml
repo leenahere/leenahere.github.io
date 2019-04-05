@@ -2,20 +2,20 @@
 <rss version="2.0" xmlns:atom="http://www.w3.org/2005/Atom">
   <channel>
     <title>Autonomousdriving on Lina&#39;s Blog</title>
-    <link>http://example.com/tags/autonomousdriving/</link>
+    <link>https://leenahere.github.io/tags/autonomousdriving/</link>
     <description>Recent content in Autonomousdriving on Lina&#39;s Blog</description>
     <generator>Hugo -- gohugo.io</generator>
     <language>en-us</language>
     
-	<atom:link href="http://example.com/tags/autonomousdriving/index.xml" rel="self" type="application/rss+xml" />
+	<atom:link href="https://leenahere.github.io/tags/autonomousdriving/index.xml" rel="self" type="application/rss+xml" />
     
     
     <item>
       <title>HTWK Smart Driving</title>
-      <link>http://example.com/projects/smartdriving/</link>
+      <link>https://leenahere.github.io/projects/smartdriving/</link>
       <pubDate>Mon, 01 Jan 0001 00:00:00 +0000</pubDate>
       
-      <guid>http://example.com/projects/smartdriving/</guid>
+      <guid>https://leenahere.github.io/projects/smartdriving/</guid>
       <description>In 2017 I was part of the team that participated in the Audi Autonomous Driving Cup. My main task was to implement Occupancy Grid Maps, which were used for object detection and parking.
 The following year I took over team leadership and focused on the implementation of the World Service.
 You can find more information about the HTWK Smart Driving Team here.</description>
