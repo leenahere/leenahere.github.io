@@ -1,0 +1,24 @@
+<?xml version="1.0" encoding="utf-8" standalone="yes" ?>
+<rss version="2.0" xmlns:atom="http://www.w3.org/2005/Atom">
+  <channel>
+    <title>Nodejs on Lina&#39;s Blog</title>
+    <link>http://example.com/tags/nodejs/</link>
+    <description>Recent content in Nodejs on Lina&#39;s Blog</description>
+    <generator>Hugo -- gohugo.io</generator>
+    <language>en-us</language>
+    
+	<atom:link href="http://example.com/tags/nodejs/index.xml" rel="self" type="application/rss+xml" />
+    
+    
+    <item>
+      <title>Bachelor Thesis</title>
+      <link>http://example.com/projects/bachelorthesis/</link>
+      <pubDate>Mon, 01 Jan 0001 00:00:00 +0000</pubDate>
+      
+      <guid>http://example.com/projects/bachelorthesis/</guid>
+      <description>In 2016 and 2017 I wrote my thesis about conversational interfaces. My goal was to establish a design and development process for conversational interfaces. I mainly based my theories on Pangaro&amp;rsquo;s design for conversation, Grice&amp;rsquo;s cooperative principles and &amp;ldquo;The Media Equation&amp;rdquo; by Reeves and Nass.
+To proof my theoretical concepts I programmed a facebook chatbot with wit.ai that was able to look up recipes. The bot was tested in a live trial and in a survey testers were able to judge the effectiveness of the conversation with the chatbot.</description>
+    </item>
+    
+  </channel>
+</rss>

@@ -1,0 +1,108 @@
+<?xml version="1.0" encoding="utf-8" standalone="yes" ?>
+<rss version="2.0" xmlns:atom="http://www.w3.org/2005/Atom">
+  <channel>
+    <title>Lina&#39;s Blog</title>
+    <link>http://example.com/</link>
+    <description>Recent content on Lina&#39;s Blog</description>
+    <generator>Hugo -- gohugo.io</generator>
+    <language>en-us</language>
+    <lastBuildDate>Tue, 02 Apr 2019 00:00:00 +0000</lastBuildDate>
+    
+	<atom:link href="http://example.com/index.xml" rel="self" type="application/rss+xml" />
+    
+    
+    <item>
+      <title>Bachelor Thesis</title>
+      <link>http://example.com/projects/bachelorthesis/</link>
+      <pubDate>Mon, 01 Jan 0001 00:00:00 +0000</pubDate>
+      
+      <guid>http://example.com/projects/bachelorthesis/</guid>
+      <description>In 2016 and 2017 I wrote my thesis about conversational interfaces. My goal was to establish a design and development process for conversational interfaces. I mainly based my theories on Pangaro&amp;rsquo;s design for conversation, Grice&amp;rsquo;s cooperative principles and &amp;ldquo;The Media Equation&amp;rdquo; by Reeves and Nass.
+To proof my theoretical concepts I programmed a facebook chatbot with wit.ai that was able to look up recipes. The bot was tested in a live trial and in a survey testers were able to judge the effectiveness of the conversation with the chatbot.</description>
+    </item>
+    
+    <item>
+      <title>HTWK Smart Driving</title>
+      <link>http://example.com/projects/smartdriving/</link>
+      <pubDate>Mon, 01 Jan 0001 00:00:00 +0000</pubDate>
+      
+      <guid>http://example.com/projects/smartdriving/</guid>
+      <description>In 2017 I was part of the team that participated in the Audi Autonomous Driving Cup. My main task was to implement Occupancy Grid Maps, which were used for object detection and parking.
+The following year I took over team leadership and focused on the implementation of the World Service.
+You can find more information about the HTWK Smart Driving Team here.</description>
+    </item>
+    
+    <item>
+      <title>Paper – SKILL 2018</title>
+      <link>http://example.com/projects/paperschoolrobots/</link>
+      <pubDate>Mon, 01 Jan 0001 00:00:00 +0000</pubDate>
+      
+      <guid>http://example.com/projects/paperschoolrobots/</guid>
+      <description>As part of the advanced seminar I attended in my second master semester, I wrote a paper with three fellow students about the utilization of robots in german highschools. The paper was accepted for publication at the student conference for computer science. The full text can be found here.</description>
+    </item>
+    
+    <item>
+      <title>Code Girls Arduino Workshop</title>
+      <link>http://example.com/projects/codegirlsarduino/</link>
+      <pubDate>Mon, 01 Jan 0001 00:00:00 +0000</pubDate>
+      
+      <guid>http://example.com/projects/codegirlsarduino/</guid>
+      <description></description>
+    </item>
+    
+    <item>
+      <title>Website for dghd2019</title>
+      <link>http://example.com/projects/dghd/</link>
+      <pubDate>Mon, 01 Jan 0001 00:00:00 +0000</pubDate>
+      
+      <guid>http://example.com/projects/dghd/</guid>
+      <description>In 2018 and 2019 I completely rebuilt the website for the conference for the german didactics of higher education which took place at the university of Leipzig in March 2019. The website can be found here.</description>
+    </item>
+    
+    <item>
+      <title>IoT Heater</title>
+      <link>http://example.com/projects/mcaheater/</link>
+      <pubDate>Mon, 01 Jan 0001 00:00:00 +0000</pubDate>
+      
+      <guid>http://example.com/projects/mcaheater/</guid>
+      <description></description>
+    </item>
+    
+    <item>
+      <title>Genetic Algorithms – Art Gallery Problem</title>
+      <link>http://example.com/projects/geneticalgorithm/</link>
+      <pubDate>Mon, 01 Jan 0001 00:00:00 +0000</pubDate>
+      
+      <guid>http://example.com/projects/geneticalgorithm/</guid>
+      <description></description>
+    </item>
+    
+    <item>
+      <title>Proof – Ackermann is not primitive recursive</title>
+      <link>http://example.com/projects/pvs/</link>
+      <pubDate>Mon, 01 Jan 0001 00:00:00 +0000</pubDate>
+      
+      <guid>http://example.com/projects/pvs/</guid>
+      <description></description>
+    </item>
+    
+    <item>
+      <title>First Hackathon</title>
+      <link>http://example.com/projects/nasahackathon/</link>
+      <pubDate>Mon, 01 Jan 0001 00:00:00 +0000</pubDate>
+      
+      <guid>http://example.com/projects/nasahackathon/</guid>
+      <description>In 2016 I participated in the NASA International Space Apps Challenge in Leipzig. In a team of three we programmed an Android app to predict delays of flights to and from the airport Leipzig/Halle (LEJ). The repository can be found here.</description>
+    </item>
+    
+    <item>
+      <title>Welcome to my personal blog</title>
+      <link>http://example.com/blog/first-post/</link>
+      <pubDate>Tue, 02 Apr 2019 00:00:00 +0000</pubDate>
+      
+      <guid>http://example.com/blog/first-post/</guid>
+      <description>Hi there This is my very personal blog that I set up to keep track on my master thesis.</description>
+    </item>
+    
+  </channel>
+</rss>
