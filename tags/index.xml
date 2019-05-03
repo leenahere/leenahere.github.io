@@ -6,7 +6,7 @@
     <description>Recent content in Tags on Lina&#39;s Blog</description>
     <generator>Hugo -- gohugo.io</generator>
     <language>en-us</language>
-    <lastBuildDate>Tue, 02 Apr 2019 00:00:00 +0000</lastBuildDate>
+    <lastBuildDate>Tue, 16 Apr 2019 00:00:00 +0000</lastBuildDate>
     
 	<atom:link href="https://leenahere.github.io/tags/index.xml" rel="self" type="application/rss+xml" />
     
@@ -95,7 +95,7 @@
     <item>
       <title>Nontech</title>
       <link>https://leenahere.github.io/tags/nontech/</link>
-      <pubDate>Tue, 02 Apr 2019 00:00:00 +0000</pubDate>
+      <pubDate>Tue, 16 Apr 2019 00:00:00 +0000</pubDate>
       
       <guid>https://leenahere.github.io/tags/nontech/</guid>
       <description></description>
@@ -125,6 +125,15 @@
       <pubDate>Mon, 01 Jan 0001 00:00:00 +0000</pubDate>
       
       <guid>https://leenahere.github.io/tags/react/</guid>
+      <description></description>
+    </item>
+    
+    <item>
+      <title>Research</title>
+      <link>https://leenahere.github.io/tags/research/</link>
+      <pubDate>Tue, 16 Apr 2019 00:00:00 +0000</pubDate>
+      
+      <guid>https://leenahere.github.io/tags/research/</guid>
       <description></description>
     </item>
     
@@ -167,7 +176,7 @@
     <item>
       <title>Thesis</title>
       <link>https://leenahere.github.io/tags/thesis/</link>
-      <pubDate>Tue, 02 Apr 2019 00:00:00 +0000</pubDate>
+      <pubDate>Tue, 16 Apr 2019 00:00:00 +0000</pubDate>
       
       <guid>https://leenahere.github.io/tags/thesis/</guid>
       <description></description>

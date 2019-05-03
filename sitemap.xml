@@ -40,7 +40,7 @@
   
   <url>
     <loc>https://leenahere.github.io/blog/first-post/</loc>
-    <lastmod>2019-04-02T00:00:00+00:00</lastmod>
+    <lastmod>2019-04-16T00:00:00+00:00</lastmod>
   </url>
   
   <url>
@@ -65,7 +65,7 @@
   
   <url>
     <loc>https://leenahere.github.io/blog/</loc>
-    <lastmod>2019-04-02T00:00:00+00:00</lastmod>
+    <lastmod>2019-04-16T00:00:00+00:00</lastmod>
     <priority>0</priority>
   </url>
   
@@ -96,7 +96,7 @@
   
   <url>
     <loc>https://leenahere.github.io/</loc>
-    <lastmod>2019-04-02T00:00:00+00:00</lastmod>
+    <lastmod>2019-04-16T00:00:00+00:00</lastmod>
     <priority>0</priority>
   </url>
   
@@ -107,7 +107,7 @@
   
   <url>
     <loc>https://leenahere.github.io/tags/nontech/</loc>
-    <lastmod>2019-04-02T00:00:00+00:00</lastmod>
+    <lastmod>2019-04-16T00:00:00+00:00</lastmod>
     <priority>0</priority>
   </url>
   
@@ -132,6 +132,12 @@
   </url>
   
   <url>
+    <loc>https://leenahere.github.io/tags/research/</loc>
+    <lastmod>2019-04-16T00:00:00+00:00</lastmod>
+    <priority>0</priority>
+  </url>
+  
+  <url>
     <loc>https://leenahere.github.io/tags/robotics/</loc>
     <priority>0</priority>
   </url>
@@ -148,7 +154,7 @@
   
   <url>
     <loc>https://leenahere.github.io/tags/</loc>
-    <lastmod>2019-04-02T00:00:00+00:00</lastmod>
+    <lastmod>2019-04-16T00:00:00+00:00</lastmod>
     <priority>0</priority>
   </url>
   
@@ -159,7 +165,7 @@
   
   <url>
     <loc>https://leenahere.github.io/tags/thesis/</loc>
-    <lastmod>2019-04-02T00:00:00+00:00</lastmod>
+    <lastmod>2019-04-16T00:00:00+00:00</lastmod>
     <priority>0</priority>
   </url>
   
