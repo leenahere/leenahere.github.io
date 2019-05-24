@@ -1,24 +1,15 @@
 <?xml version="1.0" encoding="utf-8" standalone="yes" ?>
 <rss version="2.0" xmlns:atom="http://www.w3.org/2005/Atom">
   <channel>
-    <title>Education on Lina&#39;s Blog</title>
-    <link>https://leenahere.github.io/tags/education/</link>
-    <description>Recent content in Education on Lina&#39;s Blog</description>
+    <title>Math on Lina&#39;s Blog</title>
+    <link>https://leenahere.github.io/tags/math/</link>
+    <description>Recent content in Math on Lina&#39;s Blog</description>
     <generator>Hugo -- gohugo.io</generator>
     <language>en-us</language>
     <lastBuildDate>Fri, 24 May 2019 00:00:00 +0000</lastBuildDate>
     
-	<atom:link href="https://leenahere.github.io/tags/education/index.xml" rel="self" type="application/rss+xml" />
+	<atom:link href="https://leenahere.github.io/tags/math/index.xml" rel="self" type="application/rss+xml" />
     
-    
-    <item>
-      <title>Paper – SKILL 2018</title>
-      <link>https://leenahere.github.io/projects/paperschoolrobots/</link>
-      <pubDate>Mon, 01 Jan 0001 00:00:00 +0000</pubDate>
-      
-      <guid>https://leenahere.github.io/projects/paperschoolrobots/</guid>
-      <description>As part of the advanced seminar I attended in my second master semester, I wrote a paper with three fellow students about the utilization of robots in german highschools. The paper was accepted for publication at the student conference for computer science. The full text can be found here.</description>
-    </item>
     
     <item>
       <title>Doing the Math</title>

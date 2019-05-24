@@ -6,7 +6,7 @@
     <description>Recent content in Tags on Lina&#39;s Blog</description>
     <generator>Hugo -- gohugo.io</generator>
     <language>en-us</language>
-    <lastBuildDate>Thu, 09 May 2019 00:00:00 +0000</lastBuildDate>
+    <lastBuildDate>Fri, 24 May 2019 00:00:00 +0000</lastBuildDate>
     
 	<atom:link href="https://leenahere.github.io/tags/index.xml" rel="self" type="application/rss+xml" />
     
@@ -59,7 +59,7 @@
     <item>
       <title>Education</title>
       <link>https://leenahere.github.io/tags/education/</link>
-      <pubDate>Mon, 01 Jan 0001 00:00:00 +0000</pubDate>
+      <pubDate>Fri, 24 May 2019 00:00:00 +0000</pubDate>
       
       <guid>https://leenahere.github.io/tags/education/</guid>
       <description></description>
@@ -75,11 +75,47 @@
     </item>
     
     <item>
+      <title>Internship</title>
+      <link>https://leenahere.github.io/tags/internship/</link>
+      <pubDate>Mon, 01 Jan 0001 00:00:00 +0000</pubDate>
+      
+      <guid>https://leenahere.github.io/tags/internship/</guid>
+      <description></description>
+    </item>
+    
+    <item>
+      <title>Ios</title>
+      <link>https://leenahere.github.io/tags/ios/</link>
+      <pubDate>Mon, 01 Jan 0001 00:00:00 +0000</pubDate>
+      
+      <guid>https://leenahere.github.io/tags/ios/</guid>
+      <description></description>
+    </item>
+    
+    <item>
       <title>Java</title>
       <link>https://leenahere.github.io/tags/java/</link>
       <pubDate>Mon, 01 Jan 0001 00:00:00 +0000</pubDate>
       
       <guid>https://leenahere.github.io/tags/java/</guid>
+      <description></description>
+    </item>
+    
+    <item>
+      <title>Macos</title>
+      <link>https://leenahere.github.io/tags/macos/</link>
+      <pubDate>Mon, 01 Jan 0001 00:00:00 +0000</pubDate>
+      
+      <guid>https://leenahere.github.io/tags/macos/</guid>
+      <description></description>
+    </item>
+    
+    <item>
+      <title>Math</title>
+      <link>https://leenahere.github.io/tags/math/</link>
+      <pubDate>Fri, 24 May 2019 00:00:00 +0000</pubDate>
+      
+      <guid>https://leenahere.github.io/tags/math/</guid>
       <description></description>
     </item>
     
@@ -95,9 +131,27 @@
     <item>
       <title>Nontech</title>
       <link>https://leenahere.github.io/tags/nontech/</link>
-      <pubDate>Thu, 09 May 2019 00:00:00 +0000</pubDate>
+      <pubDate>Fri, 24 May 2019 00:00:00 +0000</pubDate>
       
       <guid>https://leenahere.github.io/tags/nontech/</guid>
+      <description></description>
+    </item>
+    
+    <item>
+      <title>Objective C</title>
+      <link>https://leenahere.github.io/tags/objective-c/</link>
+      <pubDate>Mon, 01 Jan 0001 00:00:00 +0000</pubDate>
+      
+      <guid>https://leenahere.github.io/tags/objective-c/</guid>
+      <description></description>
+    </item>
+    
+    <item>
+      <title>Project Management</title>
+      <link>https://leenahere.github.io/tags/project-management/</link>
+      <pubDate>Mon, 01 Jan 0001 00:00:00 +0000</pubDate>
+      
+      <guid>https://leenahere.github.io/tags/project-management/</guid>
       <description></description>
     </item>
     
@@ -176,7 +230,7 @@
     <item>
       <title>Thesis</title>
       <link>https://leenahere.github.io/tags/thesis/</link>
-      <pubDate>Thu, 09 May 2019 00:00:00 +0000</pubDate>
+      <pubDate>Fri, 24 May 2019 00:00:00 +0000</pubDate>
       
       <guid>https://leenahere.github.io/tags/thesis/</guid>
       <description></description>

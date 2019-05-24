@@ -50,12 +50,21 @@ You can find more information about the HTWK Smart Driving Team here.</descripti
     </item>
     
     <item>
-      <title>Website for dghd2019</title>
-      <link>https://leenahere.github.io/projects/dghd/</link>
+      <title>iOS / macOS Software Developer</title>
+      <link>https://leenahere.github.io/projects/ulyssesapp/</link>
       <pubDate>Mon, 01 Jan 0001 00:00:00 +0000</pubDate>
       
-      <guid>https://leenahere.github.io/projects/dghd/</guid>
-      <description>In 2018 and 2019 I completely rebuilt the website for the conference for the german didactics of higher education which took place at the university of Leipzig in March 2019. The website can be found here.</description>
+      <guid>https://leenahere.github.io/projects/ulyssesapp/</guid>
+      <description>In 2014, I began working in customer support at Ulysses. I helped customers deal with the macOS and iOS app, recorded feature requests and reported bugs. When I came back to Leipzig after my internship in 2016, I switched roles and started co-developing the app. I implemented new features like reading time goals and fixed bugs.</description>
+    </item>
+    
+    <item>
+      <title>Internship</title>
+      <link>https://leenahere.github.io/projects/lufthansa/</link>
+      <pubDate>Mon, 01 Jan 0001 00:00:00 +0000</pubDate>
+      
+      <guid>https://leenahere.github.io/projects/lufthansa/</guid>
+      <description>I completed my mandatory internship at Lufthansa in the &amp;ldquo;Sales &amp;amp; Digital Customer Experience&amp;rdquo; department. I supported several IT project managers in projects related to the Lufthansa website and mobile platforms. I also supported a project in which a facebook chatbot was developed as an MVP.</description>
     </item>
     
     <item>
@@ -65,6 +74,15 @@ You can find more information about the HTWK Smart Driving Team here.</descripti
       
       <guid>https://leenahere.github.io/projects/mcaheater/</guid>
       <description></description>
+    </item>
+    
+    <item>
+      <title>Website for dghd2019</title>
+      <link>https://leenahere.github.io/projects/dghd/</link>
+      <pubDate>Mon, 01 Jan 0001 00:00:00 +0000</pubDate>
+      
+      <guid>https://leenahere.github.io/projects/dghd/</guid>
+      <description>In 2018 and 2019 I completely rebuilt the website for the conference for the german didactics of higher education which took place at the university of Leipzig in March 2019. The website can be found here.</description>
     </item>
     
     <item>

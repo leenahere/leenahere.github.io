@@ -6,7 +6,7 @@
     <description>Recent content in Thesis on Lina&#39;s Blog</description>
     <generator>Hugo -- gohugo.io</generator>
     <language>en-us</language>
-    <lastBuildDate>Thu, 09 May 2019 00:00:00 +0000</lastBuildDate>
+    <lastBuildDate>Fri, 24 May 2019 00:00:00 +0000</lastBuildDate>
     
 	<atom:link href="https://leenahere.github.io/tags/thesis/index.xml" rel="self" type="application/rss+xml" />
     
@@ -19,6 +19,16 @@
       <guid>https://leenahere.github.io/projects/bachelorthesis/</guid>
       <description>In 2016 and 2017 I wrote my thesis about conversational interfaces. My goal was to establish a design and development process for conversational interfaces. I mainly based my theories on Pangaro&amp;rsquo;s design for conversation, Grice&amp;rsquo;s cooperative principles and &amp;ldquo;The Media Equation&amp;rdquo; by Reeves and Nass.
 To proof my theoretical concepts I programmed a facebook chatbot with wit.ai that was able to look up recipes. The bot was tested in a live trial and in a survey testers were able to judge the effectiveness of the conversation with the chatbot.</description>
+    </item>
+    
+    <item>
+      <title>Doing the Math</title>
+      <link>https://leenahere.github.io/blog/doing-the-math/</link>
+      <pubDate>Fri, 24 May 2019 00:00:00 +0000</pubDate>
+      
+      <guid>https://leenahere.github.io/blog/doing-the-math/</guid>
+      <description>My main task the past two weeks was to figure out the learning objectives for a Machine Learning course. This is not an easy task considering that most courses you find online are designed for adults, more specifically adults with a background in computer science or another STEM field. Therefore, my work this week focused on the following three subtasks:
+ Examine different ML online courses and summarize the main learning objectives Look into teaching contents of german math classes (grade 8 to 12) Merge these outcomes to compose the learning objectives for my course  One and Two were quite straightforward.</description>
     </item>
     
     <item>

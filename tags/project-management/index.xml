@@ -1,0 +1,23 @@
+<?xml version="1.0" encoding="utf-8" standalone="yes" ?>
+<rss version="2.0" xmlns:atom="http://www.w3.org/2005/Atom">
+  <channel>
+    <title>Project Management on Lina&#39;s Blog</title>
+    <link>https://leenahere.github.io/tags/project-management/</link>
+    <description>Recent content in Project Management on Lina&#39;s Blog</description>
+    <generator>Hugo -- gohugo.io</generator>
+    <language>en-us</language>
+    
+	<atom:link href="https://leenahere.github.io/tags/project-management/index.xml" rel="self" type="application/rss+xml" />
+    
+    
+    <item>
+      <title>Internship</title>
+      <link>https://leenahere.github.io/projects/lufthansa/</link>
+      <pubDate>Mon, 01 Jan 0001 00:00:00 +0000</pubDate>
+      
+      <guid>https://leenahere.github.io/projects/lufthansa/</guid>
+      <description>I completed my mandatory internship at Lufthansa in the &amp;ldquo;Sales &amp;amp; Digital Customer Experience&amp;rdquo; department. I supported several IT project managers in projects related to the Lufthansa website and mobile platforms. I also supported a project in which a facebook chatbot was developed as an MVP.</description>
+    </item>
+    
+  </channel>
+</rss>
