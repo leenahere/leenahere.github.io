@@ -6,7 +6,7 @@
     <description>Recent content in Tags on Lina&#39;s Blog</description>
     <generator>Hugo -- gohugo.io</generator>
     <language>en-us</language>
-    <lastBuildDate>Fri, 24 May 2019 00:00:00 +0000</lastBuildDate>
+    <lastBuildDate>Thu, 06 Jun 2019 00:00:00 +0000</lastBuildDate>
     
 	<atom:link href="https://leenahere.github.io/tags/index.xml" rel="self" type="application/rss+xml" />
     
@@ -59,9 +59,18 @@
     <item>
       <title>Education</title>
       <link>https://leenahere.github.io/tags/education/</link>
-      <pubDate>Fri, 24 May 2019 00:00:00 +0000</pubDate>
+      <pubDate>Thu, 06 Jun 2019 00:00:00 +0000</pubDate>
       
       <guid>https://leenahere.github.io/tags/education/</guid>
+      <description></description>
+    </item>
+    
+    <item>
+      <title>Ev3</title>
+      <link>https://leenahere.github.io/tags/ev3/</link>
+      <pubDate>Thu, 06 Jun 2019 00:00:00 +0000</pubDate>
+      
+      <guid>https://leenahere.github.io/tags/ev3/</guid>
       <description></description>
     </item>
     
@@ -98,6 +107,24 @@
       <pubDate>Mon, 01 Jan 0001 00:00:00 +0000</pubDate>
       
       <guid>https://leenahere.github.io/tags/java/</guid>
+      <description></description>
+    </item>
+    
+    <item>
+      <title>Lego</title>
+      <link>https://leenahere.github.io/tags/lego/</link>
+      <pubDate>Thu, 06 Jun 2019 00:00:00 +0000</pubDate>
+      
+      <guid>https://leenahere.github.io/tags/lego/</guid>
+      <description></description>
+    </item>
+    
+    <item>
+      <title>Machine Learning</title>
+      <link>https://leenahere.github.io/tags/machine-learning/</link>
+      <pubDate>Thu, 06 Jun 2019 00:00:00 +0000</pubDate>
+      
+      <guid>https://leenahere.github.io/tags/machine-learning/</guid>
       <description></description>
     </item>
     
@@ -230,7 +257,7 @@
     <item>
       <title>Thesis</title>
       <link>https://leenahere.github.io/tags/thesis/</link>
-      <pubDate>Fri, 24 May 2019 00:00:00 +0000</pubDate>
+      <pubDate>Thu, 06 Jun 2019 00:00:00 +0000</pubDate>
       
       <guid>https://leenahere.github.io/tags/thesis/</guid>
       <description></description>

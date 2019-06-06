@@ -47,6 +47,11 @@
   </url>
   
   <url>
+    <loc>https://leenahere.github.io/blog/ml-with-ev3/</loc>
+    <lastmod>2019-06-06T00:00:00+00:00</lastmod>
+  </url>
+  
+  <url>
     <loc>https://leenahere.github.io/blog/doing-the-math/</loc>
     <lastmod>2019-05-24T00:00:00+00:00</lastmod>
   </url>
@@ -83,7 +88,7 @@
   
   <url>
     <loc>https://leenahere.github.io/blog/</loc>
-    <lastmod>2019-05-24T00:00:00+00:00</lastmod>
+    <lastmod>2019-06-06T00:00:00+00:00</lastmod>
     <priority>0</priority>
   </url>
   
@@ -99,7 +104,13 @@
   
   <url>
     <loc>https://leenahere.github.io/tags/education/</loc>
-    <lastmod>2019-05-24T00:00:00+00:00</lastmod>
+    <lastmod>2019-06-06T00:00:00+00:00</lastmod>
+    <priority>0</priority>
+  </url>
+  
+  <url>
+    <loc>https://leenahere.github.io/tags/ev3/</loc>
+    <lastmod>2019-06-06T00:00:00+00:00</lastmod>
     <priority>0</priority>
   </url>
   
@@ -124,8 +135,20 @@
   </url>
   
   <url>
+    <loc>https://leenahere.github.io/tags/lego/</loc>
+    <lastmod>2019-06-06T00:00:00+00:00</lastmod>
+    <priority>0</priority>
+  </url>
+  
+  <url>
     <loc>https://leenahere.github.io/</loc>
-    <lastmod>2019-05-24T00:00:00+00:00</lastmod>
+    <lastmod>2019-06-06T00:00:00+00:00</lastmod>
+    <priority>0</priority>
+  </url>
+  
+  <url>
+    <loc>https://leenahere.github.io/tags/machine-learning/</loc>
+    <lastmod>2019-06-06T00:00:00+00:00</lastmod>
     <priority>0</priority>
   </url>
   
@@ -204,7 +227,7 @@
   
   <url>
     <loc>https://leenahere.github.io/tags/</loc>
-    <lastmod>2019-05-24T00:00:00+00:00</lastmod>
+    <lastmod>2019-06-06T00:00:00+00:00</lastmod>
     <priority>0</priority>
   </url>
   
@@ -215,7 +238,7 @@
   
   <url>
     <loc>https://leenahere.github.io/tags/thesis/</loc>
-    <lastmod>2019-05-24T00:00:00+00:00</lastmod>
+    <lastmod>2019-06-06T00:00:00+00:00</lastmod>
     <priority>0</priority>
   </url>
   
