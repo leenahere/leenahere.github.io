@@ -43,6 +43,14 @@
   </url>
   
   <url>
+    <loc>https://leenahere.github.io/projects/jugendhacktmentor/</loc>
+  </url>
+  
+  <url>
+    <loc>https://leenahere.github.io/projects/helpingmentor/</loc>
+  </url>
+  
+  <url>
     <loc>https://leenahere.github.io/projects/pvs/</loc>
   </url>
   
@@ -143,6 +151,11 @@
   </url>
   
   <url>
+    <loc>https://leenahere.github.io/tags/kids/</loc>
+    <priority>0</priority>
+  </url>
+  
+  <url>
     <loc>https://leenahere.github.io/tags/lego/</loc>
     <lastmod>2019-06-06T00:00:00+00:00</lastmod>
     <priority>0</priority>
@@ -168,6 +181,11 @@
   <url>
     <loc>https://leenahere.github.io/tags/math/</loc>
     <lastmod>2019-05-24T00:00:00+00:00</lastmod>
+    <priority>0</priority>
+  </url>
+  
+  <url>
+    <loc>https://leenahere.github.io/tags/mentoring/</loc>
     <priority>0</priority>
   </url>
   
