@@ -6,7 +6,7 @@
     <description>Recent content in Thesis on Lina&#39;s Blog</description>
     <generator>Hugo -- gohugo.io</generator>
     <language>en-us</language>
-    <lastBuildDate>Thu, 06 Jun 2019 00:00:00 +0000</lastBuildDate>
+    <lastBuildDate>Thu, 25 Jul 2019 00:00:00 +0000</lastBuildDate>
     
 	<atom:link href="https://leenahere.github.io/tags/thesis/index.xml" rel="self" type="application/rss+xml" />
     
@@ -19,6 +19,15 @@
       <guid>https://leenahere.github.io/projects/bachelorthesis/</guid>
       <description>In 2016 and 2017 I wrote my thesis about conversational interfaces. My goal was to establish a design and development process for conversational interfaces. I mainly based my theories on Pangaro&amp;rsquo;s design for conversation, Grice&amp;rsquo;s cooperative principles and &amp;ldquo;The Media Equation&amp;rdquo; by Reeves and Nass.
 To proof my theoretical concepts I programmed a facebook chatbot with wit.ai that was able to look up recipes. The bot was tested in a live trial and in a survey testers were able to judge the effectiveness of the conversation with the chatbot.</description>
+    </item>
+    
+    <item>
+      <title>About Organized Chaos and Chaotic Organization</title>
+      <link>https://leenahere.github.io/blog/orga-chaos/</link>
+      <pubDate>Thu, 25 Jul 2019 00:00:00 +0000</pubDate>
+      
+      <guid>https://leenahere.github.io/blog/orga-chaos/</guid>
+      <description>What&amp;rsquo;s crackin&amp;rsquo;? I haven&amp;rsquo;t written on here for a long long time. Initially, I wanted to update this blog every week. Mostly for myself to stay organized. That&amp;rsquo;s the thing with plans though, they&amp;rsquo;re just plans and not reality in most cases. For the most part, I didn&amp;rsquo;t write anything the past weeks, because I tried to find the right topic to write about next to keep these nice topic related posts going.</description>
     </item>
     
     <item>

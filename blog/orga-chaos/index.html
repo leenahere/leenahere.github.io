@@ -4,7 +4,7 @@
          
         <meta charset="utf-8">
         <meta name="viewport" content="width=device-width, initial-scale=1">
-        <title>Thesis</title>
+        <title>About Organized Chaos and Chaotic Organization</title>
         
         <style>
 
@@ -62,9 +62,6 @@
 <script>$(document).on('click', function() { $('.collapse').collapse('hide'); })</script>
  <meta name="generator" content="Hugo 0.54.0" />
         
-        <link href="https://leenahere.github.io/tags/thesis/index.xml" rel="alternate" type="application/rss+xml" title="Lina&#39;s Blog" />
-        <link href="https://leenahere.github.io/tags/thesis/index.xml" rel="feed" type="application/rss+xml" title="Lina&#39;s Blog" />
-        
 
         
     </head>
@@ -84,7 +81,7 @@
 
                 <div class="navbar-header">
 
-                    <a class="navbar-brand visible-xs" href="#">Thesis</a>
+                    <a class="navbar-brand visible-xs" href="#">About Organized Chaos and Chaotic Organization</a>
 
                     <button class="navbar-toggle" data-target=".navbar-collapse" data-toggle="collapse">
                         <span class="icon-bar"></span>
@@ -133,31 +130,7 @@
 
 <main>
 
-    <h2>Thesis</h2>
-
-     <div class="item">
-
-    
-    
-    
-
-    
-      
-
-    <h4><a href="/projects/bachelorthesis/">Bachelor Thesis</a></h4>
-    <h5>Conversational Interfaces – Design und Entwicklung eines Chatbots</h5>
-    
-    <a href="https://leenahere.github.io/tags/study"><kbd class="item-tag">study</kbd></a>
-    
-    <a href="https://leenahere.github.io/tags/thesis"><kbd class="item-tag">thesis</kbd></a>
-    
-    <a href="https://leenahere.github.io/tags/nodejs"><kbd class="item-tag">nodejs</kbd></a>
-    
-    <a href="https://leenahere.github.io/tags/ai"><kbd class="item-tag">ai</kbd></a>
-    
-
-</div>
-  <div class="item">
+    <div class="item">
 
     
     
@@ -177,98 +150,45 @@
     
 
 </div>
-  <div class="item">
 
-    
-    
-    
 
-    
-    
+    <br> <div class="content"><p>What&rsquo;s crackin&rsquo;? I haven&rsquo;t written on here for a long long time. Initially, I wanted to update this blog every week. Mostly for myself to stay organized. That&rsquo;s the thing with plans though, they&rsquo;re <strong>just</strong> plans and not reality in most cases. For the most part, I didn&rsquo;t write anything the past weeks, because I tried to find the right topic to write about next to keep these nice topic related posts going. Yesterday my bad conscience surfaced again and I finally realized what the initial purpose of this blog was and that I should just get back on here and write about the past few weeks. So here I am.</p>
 
-    <h4><a href="/blog/ml-with-ev3/">Machine Learning with Lego Mindstorms EV3</a></h4>
-    <h5>June 6, 2019</h5>
-    
-    <a href="https://leenahere.github.io/tags/thesis"><kbd class="item-tag">thesis</kbd></a>
-    
-    <a href="https://leenahere.github.io/tags/education"><kbd class="item-tag">education</kbd></a>
-    
-    <a href="https://leenahere.github.io/tags/machine-learning"><kbd class="item-tag">machine learning</kbd></a>
-    
-    <a href="https://leenahere.github.io/tags/lego"><kbd class="item-tag">lego</kbd></a>
-    
-    <a href="https://leenahere.github.io/tags/ev3"><kbd class="item-tag">ev3</kbd></a>
-    
+<p>After my last blog post, I deep-dived into the specifications for the web application. That&rsquo;s what I wanted to write a blog post about for weeks now. But to be honest, I didn&rsquo;t exactly adhere to the state of the art software development processes that I was taught repeatedly during my studies. Again, this is just the reality I have to face. I started specifying as much as I could without starting the development process. I quickly realized though that I had a lot of unknowns that just required trying some stuff out. After six weeks, this leaves me with constant scrum-like emergency talks with myself, where I have to revisit a lot of decisions I kind of made subconsciously while developing. It might not be optimal, but considering the limited time that I have to develop this relatively large environment, I was a lot more comfortable with just starting the development process rather than planning out every detail beforehand.</p>
 
+<p>So what did I achieve in the past weeks? I&rsquo;ve set up the entire application frontend and backend. The current frontend situation can be seen in the screenshots below.</p>
+
+<p><img src="/images/blockly.png" alt="Blockly Workspace" /></p>
+
+<p><img src="/images/plot.png" alt="Data Workspace" /></p>
+
+<p>Moreover, I figured out the communication with the robot which wasn&rsquo;t the easiest thing. That&rsquo;s one of the many things where I, considering the time I have, had to lower my standards. &ldquo;You can&rsquo;t have everything, Lina!&rdquo;, is something I told myself many times over the past weeks. Now, the robot communication is as simple as can be, but it works. I&rsquo;ll write a detailed post about my software architecture, once everything is in it&rsquo;s final state.</p>
+
+<p>Apart from the whole web application shenanigans, I received the best email a few weeks ago (it truly made my day). In my medium blog post I asked people to write me, if they had any experience/ideas and this kind guy from Denmark actually did. He gave a talk at a conference about machine learning with LEGO and built a self-driving robot using a LEGO NXT and an Android phone. You can check out the talk <a href="https://youtu.be/ux_9hqxiqpI">here</a>. When I say it truly made my day, I mean it. I was a little unhappy, since I wanted to generalize the web application and tried really hard not to tailor it too much to the classification problems I had already experimented with with the robot. This talk gave me exactly what I needed: a regression problem. Eureka (not really <em>I</em> though)!</p>
+
+<p>When I had enough of React and Flask for the day, I worked on recreating the self-driving robot with the resources I had. I already trained the robot with the three light sensors and a MLP and a SGDRegressor to follow a black line which worked surprisingly well. Currently, I&rsquo;m trying the whole thing with a light sensor array which is not a LEGO sensor, but works quite well with the EV3. Once this works, I&rsquo;ll pour everything into another blog post.</p>
+
+<p>In the process, I had another idea for an excercise with the robot to cover the basics of reinforcement learning: with q-learning the robot should be able to get through a labyrinth. Once I&rsquo;m done with the self-driving robot, this will be my next challenge.</p>
+
+<p>The next big step will be to program all the blocks for the different machine learning algorithms that should be accessible via the visual programming environment. This at least will be a part which I thoroughly specified beforehand.</p>
+
+<p>So far so good… I&rsquo;m actually quite happy with the results from the past weeks. I can slowly feel everything coming together. Also, I&rsquo;m just having so much fun and this thesis truly fulfills me. I know that sounds really cringy, but it&rsquo;s true. I&rsquo;ve been learning so much about so many different things over the past weeks and I enjoy nothing more than learning.</p>
+
+<p><img src="https://media.giphy.com/media/3o6fJ2J2Ct3zcv1u7K/giphy.gif" alt="Cringy" /></p>
+
+<p>So while it might be cringy to some, the whole experience actually feels quite wholesome :)</p>
+
+<p>I really want to get back to updating this blog regularly. Well, I counted and I basically promised two post in this post already. Let us hope that I&rsquo;ll keep that promise and you&rsquo;ll hear from me soon.</p>
 </div>
-  <div class="item">
-
-    
-    
-    
 
     
     
 
-    <h4><a href="/blog/doing-the-math/">Doing the Math</a></h4>
-    <h5>May 24, 2019</h5>
-    
-    <a href="https://leenahere.github.io/tags/thesis"><kbd class="item-tag">thesis</kbd></a>
-    
-    <a href="https://leenahere.github.io/tags/nontech"><kbd class="item-tag">nontech</kbd></a>
-    
-    <a href="https://leenahere.github.io/tags/math"><kbd class="item-tag">math</kbd></a>
-    
-    <a href="https://leenahere.github.io/tags/education"><kbd class="item-tag">education</kbd></a>
-    
-
-</div>
-  <div class="item">
-
-    
-    
     
 
     
-    
-
-    <h4><a href="/blog/research-proposal/">Research Proposal</a></h4>
-    <h5>May 9, 2019</h5>
-    
-    <a href="https://leenahere.github.io/tags/thesis"><kbd class="item-tag">thesis</kbd></a>
-    
-    <a href="https://leenahere.github.io/tags/nontech"><kbd class="item-tag">nontech</kbd></a>
-    
-    <a href="https://leenahere.github.io/tags/research"><kbd class="item-tag">research</kbd></a>
-    
-
-</div>
-  <div class="item">
-
-    
-    
-    
-
-    
-    
-
-    <h4><a href="/blog/research/">Research</a></h4>
-    <h5>April 20, 2019</h5>
-    
-    <a href="https://leenahere.github.io/tags/thesis"><kbd class="item-tag">thesis</kbd></a>
-    
-    <a href="https://leenahere.github.io/tags/nontech"><kbd class="item-tag">nontech</kbd></a>
-    
-    <a href="https://leenahere.github.io/tags/research"><kbd class="item-tag">research</kbd></a>
-    
-
-</div>
- 
 
 </main>
-
-
-
 
         <footer>
 

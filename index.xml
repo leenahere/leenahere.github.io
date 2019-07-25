@@ -6,7 +6,7 @@
     <description>Recent content on Lina&#39;s Blog</description>
     <generator>Hugo -- gohugo.io</generator>
     <language>en-us</language>
-    <lastBuildDate>Thu, 06 Jun 2019 00:00:00 +0000</lastBuildDate>
+    <lastBuildDate>Thu, 25 Jul 2019 00:00:00 +0000</lastBuildDate>
     
 	<atom:link href="https://leenahere.github.io/index.xml" rel="self" type="application/rss+xml" />
     
@@ -138,6 +138,15 @@ You can find more information about the HTWK Smart Driving Team here.</descripti
       
       <guid>https://leenahere.github.io/projects/nasahackathon/</guid>
       <description>In 2016 I participated in the NASA International Space Apps Challenge in Leipzig. In a team of three we programmed an Android app to predict delays of flights to and from the airport Leipzig/Halle (LEJ). The repository can be found here.</description>
+    </item>
+    
+    <item>
+      <title>About Organized Chaos and Chaotic Organization</title>
+      <link>https://leenahere.github.io/blog/orga-chaos/</link>
+      <pubDate>Thu, 25 Jul 2019 00:00:00 +0000</pubDate>
+      
+      <guid>https://leenahere.github.io/blog/orga-chaos/</guid>
+      <description>What&amp;rsquo;s crackin&amp;rsquo;? I haven&amp;rsquo;t written on here for a long long time. Initially, I wanted to update this blog every week. Mostly for myself to stay organized. That&amp;rsquo;s the thing with plans though, they&amp;rsquo;re just plans and not reality in most cases. For the most part, I didn&amp;rsquo;t write anything the past weeks, because I tried to find the right topic to write about next to keep these nice topic related posts going.</description>
     </item>
     
     <item>

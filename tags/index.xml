@@ -6,7 +6,7 @@
     <description>Recent content in Tags on Lina&#39;s Blog</description>
     <generator>Hugo -- gohugo.io</generator>
     <language>en-us</language>
-    <lastBuildDate>Thu, 06 Jun 2019 00:00:00 +0000</lastBuildDate>
+    <lastBuildDate>Thu, 25 Jul 2019 00:00:00 +0000</lastBuildDate>
     
 	<atom:link href="https://leenahere.github.io/tags/index.xml" rel="self" type="application/rss+xml" />
     
@@ -53,6 +53,15 @@
       <pubDate>Mon, 01 Jan 0001 00:00:00 +0000</pubDate>
       
       <guid>https://leenahere.github.io/tags/c&#43;&#43;/</guid>
+      <description></description>
+    </item>
+    
+    <item>
+      <title>Chaos</title>
+      <link>https://leenahere.github.io/tags/chaos/</link>
+      <pubDate>Thu, 25 Jul 2019 00:00:00 +0000</pubDate>
+      
+      <guid>https://leenahere.github.io/tags/chaos/</guid>
       <description></description>
     </item>
     
@@ -192,6 +201,15 @@
     </item>
     
     <item>
+      <title>Organization</title>
+      <link>https://leenahere.github.io/tags/organization/</link>
+      <pubDate>Thu, 25 Jul 2019 00:00:00 +0000</pubDate>
+      
+      <guid>https://leenahere.github.io/tags/organization/</guid>
+      <description></description>
+    </item>
+    
+    <item>
       <title>Project Management</title>
       <link>https://leenahere.github.io/tags/project-management/</link>
       <pubDate>Mon, 01 Jan 0001 00:00:00 +0000</pubDate>
@@ -275,7 +293,7 @@
     <item>
       <title>Thesis</title>
       <link>https://leenahere.github.io/tags/thesis/</link>
-      <pubDate>Thu, 06 Jun 2019 00:00:00 +0000</pubDate>
+      <pubDate>Thu, 25 Jul 2019 00:00:00 +0000</pubDate>
       
       <guid>https://leenahere.github.io/tags/thesis/</guid>
       <description></description>
