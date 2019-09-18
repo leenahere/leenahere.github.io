@@ -1,9 +1,9 @@
 <?xml version="1.0" encoding="utf-8" standalone="yes" ?>
 <rss version="2.0" xmlns:atom="http://www.w3.org/2005/Atom">
   <channel>
-    <title>Study on Lina&#39;s Blog</title>
+    <title>study on Lina&#39;s Blog</title>
     <link>https://leenahere.github.io/tags/study/</link>
-    <description>Recent content in Study on Lina&#39;s Blog</description>
+    <description>Recent content in study on Lina&#39;s Blog</description>
     <generator>Hugo -- gohugo.io</generator>
     <language>en-us</language>
     
@@ -21,15 +21,6 @@ To proof my theoretical concepts I programmed a facebook chatbot with wit.ai tha
     </item>
     
     <item>
-      <title>Genetic Algorithms – Art Gallery Problem</title>
-      <link>https://leenahere.github.io/projects/geneticalgorithm/</link>
-      <pubDate>Mon, 01 Jan 0001 00:00:00 +0000</pubDate>
-      
-      <guid>https://leenahere.github.io/projects/geneticalgorithm/</guid>
-      <description></description>
-    </item>
-    
-    <item>
       <title>HTWK Smart Driving</title>
       <link>https://leenahere.github.io/projects/smartdriving/</link>
       <pubDate>Mon, 01 Jan 0001 00:00:00 +0000</pubDate>
@@ -38,15 +29,6 @@ To proof my theoretical concepts I programmed a facebook chatbot with wit.ai tha
       <description>In 2017 I was part of the team that participated in the Audi Autonomous Driving Cup. My main task was to implement Occupancy Grid Maps, which were used for object detection and parking.
 The following year I took over team leadership and focused on the implementation of the World Service.
 You can find more information about the HTWK Smart Driving Team here.</description>
-    </item>
-    
-    <item>
-      <title>IoT Heater</title>
-      <link>https://leenahere.github.io/projects/mcaheater/</link>
-      <pubDate>Mon, 01 Jan 0001 00:00:00 +0000</pubDate>
-      
-      <guid>https://leenahere.github.io/projects/mcaheater/</guid>
-      <description></description>
     </item>
     
     <item>
@@ -59,12 +41,30 @@ You can find more information about the HTWK Smart Driving Team here.</descripti
     </item>
     
     <item>
+      <title>IoT Heater</title>
+      <link>https://leenahere.github.io/projects/mcaheater/</link>
+      <pubDate>Mon, 01 Jan 0001 00:00:00 +0000</pubDate>
+      
+      <guid>https://leenahere.github.io/projects/mcaheater/</guid>
+      <description></description>
+    </item>
+    
+    <item>
       <title>Project Management</title>
       <link>https://leenahere.github.io/projects/projectmanagement/</link>
       <pubDate>Mon, 01 Jan 0001 00:00:00 +0000</pubDate>
       
       <guid>https://leenahere.github.io/projects/projectmanagement/</guid>
       <description>In 2017 and 2018 I took over the project management of a student project for two semesters. This project is a mandatory part of the Bachelor&amp;rsquo;s and Master&amp;rsquo;s program in which a team of 10-15 students develops a software over two semesters. The bachelor students function as the development team and the master students take over the project management part. Since the development is based on Scrum, the master students act as Software Architect, Product Owner and Scrum Master.</description>
+    </item>
+    
+    <item>
+      <title>Genetic Algorithms – Art Gallery Problem</title>
+      <link>https://leenahere.github.io/projects/geneticalgorithm/</link>
+      <pubDate>Mon, 01 Jan 0001 00:00:00 +0000</pubDate>
+      
+      <guid>https://leenahere.github.io/projects/geneticalgorithm/</guid>
+      <description></description>
     </item>
     
     <item>

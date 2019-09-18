@@ -1,23 +1,14 @@
 <?xml version="1.0" encoding="utf-8" standalone="yes" ?>
 <rss version="2.0" xmlns:atom="http://www.w3.org/2005/Atom">
   <channel>
-    <title>Android on Lina&#39;s Blog</title>
+    <title>android on Lina&#39;s Blog</title>
     <link>https://leenahere.github.io/tags/android/</link>
-    <description>Recent content in Android on Lina&#39;s Blog</description>
+    <description>Recent content in android on Lina&#39;s Blog</description>
     <generator>Hugo -- gohugo.io</generator>
     <language>en-us</language>
     
 	<atom:link href="https://leenahere.github.io/tags/android/index.xml" rel="self" type="application/rss+xml" />
     
-    
-    <item>
-      <title>First Hackathon</title>
-      <link>https://leenahere.github.io/projects/nasahackathon/</link>
-      <pubDate>Mon, 01 Jan 0001 00:00:00 +0000</pubDate>
-      
-      <guid>https://leenahere.github.io/projects/nasahackathon/</guid>
-      <description>In 2016 I participated in the NASA International Space Apps Challenge in Leipzig. In a team of three we programmed an Android app to predict delays of flights to and from the airport Leipzig/Halle (LEJ). The repository can be found here.</description>
-    </item>
     
     <item>
       <title>Project Management</title>
@@ -26,6 +17,15 @@
       
       <guid>https://leenahere.github.io/projects/projectmanagement/</guid>
       <description>In 2017 and 2018 I took over the project management of a student project for two semesters. This project is a mandatory part of the Bachelor&amp;rsquo;s and Master&amp;rsquo;s program in which a team of 10-15 students develops a software over two semesters. The bachelor students function as the development team and the master students take over the project management part. Since the development is based on Scrum, the master students act as Software Architect, Product Owner and Scrum Master.</description>
+    </item>
+    
+    <item>
+      <title>First Hackathon</title>
+      <link>https://leenahere.github.io/projects/nasahackathon/</link>
+      <pubDate>Mon, 01 Jan 0001 00:00:00 +0000</pubDate>
+      
+      <guid>https://leenahere.github.io/projects/nasahackathon/</guid>
+      <description>In 2016 I participated in the NASA International Space Apps Challenge in Leipzig. In a team of three we programmed an Android app to predict delays of flights to and from the airport Leipzig/Halle (LEJ). The repository can be found here.</description>
     </item>
     
   </channel>

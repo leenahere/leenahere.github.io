@@ -1,23 +1,14 @@
 <?xml version="1.0" encoding="utf-8" standalone="yes" ?>
 <rss version="2.0" xmlns:atom="http://www.w3.org/2005/Atom">
   <channel>
-    <title>Work on Lina&#39;s Blog</title>
+    <title>work on Lina&#39;s Blog</title>
     <link>https://leenahere.github.io/tags/work/</link>
-    <description>Recent content in Work on Lina&#39;s Blog</description>
+    <description>Recent content in work on Lina&#39;s Blog</description>
     <generator>Hugo -- gohugo.io</generator>
     <language>en-us</language>
     
 	<atom:link href="https://leenahere.github.io/tags/work/index.xml" rel="self" type="application/rss+xml" />
     
-    
-    <item>
-      <title>Website for dghd2019</title>
-      <link>https://leenahere.github.io/projects/dghd/</link>
-      <pubDate>Mon, 01 Jan 0001 00:00:00 +0000</pubDate>
-      
-      <guid>https://leenahere.github.io/projects/dghd/</guid>
-      <description>In 2018 and 2019 I completely rebuilt the website for the conference for the german didactics of higher education which took place at the university of Leipzig in March 2019. The website can be found here.</description>
-    </item>
     
     <item>
       <title>iOS / macOS Software Developer</title>
@@ -26,6 +17,15 @@
       
       <guid>https://leenahere.github.io/projects/ulyssesapp/</guid>
       <description>In 2014, I began working in customer support at Ulysses. I helped customers deal with the macOS and iOS app, recorded feature requests and reported bugs. When I came back to Leipzig after my internship in 2016, I switched roles and started co-developing the app. I implemented new features like reading time goals and fixed bugs.</description>
+    </item>
+    
+    <item>
+      <title>Website for dghd2019</title>
+      <link>https://leenahere.github.io/projects/dghd/</link>
+      <pubDate>Mon, 01 Jan 0001 00:00:00 +0000</pubDate>
+      
+      <guid>https://leenahere.github.io/projects/dghd/</guid>
+      <description>In 2018 and 2019 I completely rebuilt the website for the conference for the german didactics of higher education which took place at the university of Leipzig in March 2019. The website can be found here.</description>
     </item>
     
   </channel>

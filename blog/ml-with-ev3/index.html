@@ -24,7 +24,7 @@
 <link rel="stylesheet" href="https://fonts.googleapis.com/css?family=IBM%20Plex%20Sans">
 
 
- <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/highlight.js/9.12.0/styles/solarized-dark.min.css"> 
+ <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/highlight.js/9.12.0/styles/github-gist.min.css"> 
 
 
 <link href="https://maxcdn.bootstrapcdn.com/bootstrap/3.3.7/css/bootstrap.min.css" integrity="sha384-BVYiiSIFeK1dGmJRAkycuHAHRg32OmUcww7on3RYdg4Va+PmSTsz/K68vbdEjh4u" rel="stylesheet"  crossorigin="anonymous">
@@ -43,7 +43,7 @@
 
     <script src="https://cdnjs.cloudflare.com/ajax/libs/highlight.js/9.12.0/highlight.min.js"></script>
 
-     <script src="https://cdnjs.cloudflare.com/ajax/libs/highlight.js/9.12.0/languages/go.min.js"></script>  <script src="https://cdnjs.cloudflare.com/ajax/libs/highlight.js/9.12.0/languages/haskell.min.js"></script>  <script src="https://cdnjs.cloudflare.com/ajax/libs/highlight.js/9.12.0/languages/kotlin.min.js"></script>  <script src="https://cdnjs.cloudflare.com/ajax/libs/highlight.js/9.12.0/languages/scala.min.js"></script>  <script src="https://cdnjs.cloudflare.com/ajax/libs/highlight.js/9.12.0/languages/swift.min.js"></script> 
+     <script src="https://cdnjs.cloudflare.com/ajax/libs/highlight.js/9.12.0/languages/go.min.js"></script>  <script src="https://cdnjs.cloudflare.com/ajax/libs/highlight.js/9.12.0/languages/python.min.js"></script>  <script src="https://cdnjs.cloudflare.com/ajax/libs/highlight.js/9.12.0/languages/kotlin.min.js"></script>  <script src="https://cdnjs.cloudflare.com/ajax/libs/highlight.js/9.12.0/languages/scala.min.js"></script>  <script src="https://cdnjs.cloudflare.com/ajax/libs/highlight.js/9.12.0/languages/swift.min.js"></script> 
 
     <script>hljs.initHighlightingOnLoad();</script>
 
@@ -60,9 +60,19 @@
 
 
 <script>$(document).on('click', function() { $('.collapse').collapse('hide'); })</script>
- <meta name="generator" content="Hugo 0.54.0" />
+ <meta name="generator" content="Hugo 0.56.1" />
         
 
+        
+        
+        <script async src="https://www.googletagmanager.com/gtag/js?id=UA-148210408-1"></script>
+        <script>
+          window.dataLayer = window.dataLayer || [];
+          function gtag(){dataLayer.push(arguments)};
+          gtag('js', new Date());
+
+          gtag('config', 'UA-148210408-1');
+        </script>
         
     </head>
 
@@ -283,8 +293,8 @@ f.write(str(col_left.value()) + &quot;,&quot; + str(col_mid.value()) + &quot;,&q
 <li>Create the classifier</li>
 <li>Fit the model to the training data</li>
 <li>Make predictions for the test data</li>
-<li>Print the confusion matrix and the classification report</li>
-</ul>
+
+<li><p>Print the confusion matrix and the classification report</p>
 
 <pre><code class="language-python">X_train, X_test, y_train, y_test = train_test_split(X, y)
 
@@ -301,7 +311,8 @@ predictions = mlp.predict(X_test)
 
 print(confusion_matrix(y_test,predictions))
 print(classification_report(y_test,predictions))
-</code></pre>
+</code></pre></li>
+</ul>
 
 <p>Training the different models can be done on your computer instead of the EV3. This is much faster and more convenient if you want to try out multiple algorithms and play with their parameters.</p>
 
