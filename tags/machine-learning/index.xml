@@ -17,8 +17,7 @@
       <pubDate>Thu, 06 Jun 2019 00:00:00 +0000</pubDate>
       
       <guid>https://leenahere.github.io/blog/ml-with-ev3/</guid>
-      <description>Today I present to you: Another Machine Learning tutorial that no one asked for.
-As part of my master thesis, I developed a workflow and exercises to bring Machine Learning (ML) to LEGO Mindstorms EV3. To give you a bit of background about my thesis, my aim is to create an educational programming environment to teach high school students about Machine Learning algorithms using LEGO Mindstorms. Finding a suitable task for teaching kids (or rather teenagers) ML algorithms wasn’t the easiest considering the limited resources and sensors the EV3 has to offer.</description>
+      <description>&lt;p&gt;Today I present to you: Another Machine Learning tutorial that no one asked for.&lt;/p&gt;</description>
     </item>
     
   </channel>
