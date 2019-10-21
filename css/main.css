@@ -104,6 +104,8 @@ a, a:hover, a:visited, a:active, a:link, a:focus {
     border-width: 0.15px;
     color: #3a3a3a;
     background-color: white;
+    white-space: nowrap;
+    line-height: 200%;
     /* float: right;
     margin-left: 5px; */
 }

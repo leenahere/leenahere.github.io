@@ -59,26 +59,43 @@
   </url>
   
   <url>
-    <loc>https://leenahere.github.io/blog/orga-chaos/</loc>
-    <lastmod>2019-07-25T00:00:00+00:00</lastmod>
-  </url>
-  
-  <url>
     <loc>https://leenahere.github.io/blog/</loc>
-    <lastmod>2019-07-25T00:00:00+00:00</lastmod>
+    <lastmod>2019-10-21T00:00:00+00:00</lastmod>
     <priority>0</priority>
   </url>
   
   <url>
     <loc>https://leenahere.github.io/</loc>
-    <lastmod>2019-07-25T00:00:00+00:00</lastmod>
+    <lastmod>2019-10-21T00:00:00+00:00</lastmod>
     <priority>0</priority>
   </url>
   
   <url>
     <loc>https://leenahere.github.io/tags/</loc>
-    <lastmod>2019-07-25T00:00:00+00:00</lastmod>
+    <lastmod>2019-10-21T00:00:00+00:00</lastmod>
     <priority>0</priority>
+  </url>
+  
+  <url>
+    <loc>https://leenahere.github.io/blog/workshop/</loc>
+    <lastmod>2019-10-21T00:00:00+00:00</lastmod>
+  </url>
+  
+  <url>
+    <loc>https://leenahere.github.io/tags/thesis/</loc>
+    <lastmod>2019-10-21T00:00:00+00:00</lastmod>
+    <priority>0</priority>
+  </url>
+  
+  <url>
+    <loc>https://leenahere.github.io/tags/workshop/</loc>
+    <lastmod>2019-10-21T00:00:00+00:00</lastmod>
+    <priority>0</priority>
+  </url>
+  
+  <url>
+    <loc>https://leenahere.github.io/blog/orga-chaos/</loc>
+    <lastmod>2019-07-25T00:00:00+00:00</lastmod>
   </url>
   
   <url>
@@ -89,12 +106,6 @@
   
   <url>
     <loc>https://leenahere.github.io/tags/organization/</loc>
-    <lastmod>2019-07-25T00:00:00+00:00</lastmod>
-    <priority>0</priority>
-  </url>
-  
-  <url>
-    <loc>https://leenahere.github.io/tags/thesis/</loc>
     <lastmod>2019-07-25T00:00:00+00:00</lastmod>
     <priority>0</priority>
   </url>

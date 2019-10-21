@@ -6,7 +6,7 @@
     <description>Recent content in thesis on Lina Peters</description>
     <generator>Hugo -- gohugo.io</generator>
     <language>en-us</language>
-    <lastBuildDate>Thu, 25 Jul 2019 00:00:00 +0000</lastBuildDate>
+    <lastBuildDate>Mon, 21 Oct 2019 00:00:00 +0000</lastBuildDate>
     
 	<atom:link href="https://leenahere.github.io/tags/thesis/index.xml" rel="self" type="application/rss+xml" />
     
@@ -19,6 +19,15 @@
       <guid>https://leenahere.github.io/projects/bachelorthesis/</guid>
       <description>In 2016 and 2017 I wrote my thesis about conversational interfaces. My goal was to establish a design and development process for conversational interfaces. I mainly based my theories on Pangaro&amp;rsquo;s design for conversation, Grice&amp;rsquo;s cooperative principles and &amp;ldquo;The Media Equation&amp;rdquo; by Reeves and Nass.
 To proof my theoretical concepts I programmed a facebook chatbot with wit.ai that was able to look up recipes. The bot was tested in a live trial and in a survey testers were able to judge the effectiveness of the conversation with the chatbot.</description>
+    </item>
+    
+    <item>
+      <title>Trial Run for µanthánō and the Educational Concept</title>
+      <link>https://leenahere.github.io/blog/workshop/</link>
+      <pubDate>Mon, 21 Oct 2019 00:00:00 +0000</pubDate>
+      
+      <guid>https://leenahere.github.io/blog/workshop/</guid>
+      <description>&lt;p&gt;Yesterday (on a Sunday) I coaxed some of my friends to run the first trial for my master thesis with me.&lt;/p&gt;</description>
     </item>
     
     <item>

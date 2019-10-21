@@ -1,0 +1,24 @@
+<?xml version="1.0" encoding="utf-8" standalone="yes" ?>
+<rss version="2.0" xmlns:atom="http://www.w3.org/2005/Atom">
+  <channel>
+    <title>workshop on Lina Peters</title>
+    <link>https://leenahere.github.io/tags/workshop/</link>
+    <description>Recent content in workshop on Lina Peters</description>
+    <generator>Hugo -- gohugo.io</generator>
+    <language>en-us</language>
+    <lastBuildDate>Mon, 21 Oct 2019 00:00:00 +0000</lastBuildDate>
+    
+	<atom:link href="https://leenahere.github.io/tags/workshop/index.xml" rel="self" type="application/rss+xml" />
+    
+    
+    <item>
+      <title>Trial Run for µanthánō and the Educational Concept</title>
+      <link>https://leenahere.github.io/blog/workshop/</link>
+      <pubDate>Mon, 21 Oct 2019 00:00:00 +0000</pubDate>
+      
+      <guid>https://leenahere.github.io/blog/workshop/</guid>
+      <description>&lt;p&gt;Yesterday (on a Sunday) I coaxed some of my friends to run the first trial for my master thesis with me.&lt;/p&gt;</description>
+    </item>
+    
+  </channel>
+</rss>

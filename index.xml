@@ -6,7 +6,7 @@
     <description>Recent content on Lina Peters</description>
     <generator>Hugo -- gohugo.io</generator>
     <language>en-us</language>
-    <lastBuildDate>Thu, 25 Jul 2019 00:00:00 +0000</lastBuildDate>
+    <lastBuildDate>Mon, 21 Oct 2019 00:00:00 +0000</lastBuildDate>
     
 	<atom:link href="https://leenahere.github.io/index.xml" rel="self" type="application/rss+xml" />
     
@@ -138,6 +138,15 @@ You can find more information about the HTWK Smart Driving Team here.</descripti
       
       <guid>https://leenahere.github.io/projects/nasahackathon/</guid>
       <description>In 2016 I participated in the NASA International Space Apps Challenge in Leipzig. In a team of three we programmed an Android app to predict delays of flights to and from the airport Leipzig/Halle (LEJ). The repository can be found here.</description>
+    </item>
+    
+    <item>
+      <title>Trial Run for µanthánō and the Educational Concept</title>
+      <link>https://leenahere.github.io/blog/workshop/</link>
+      <pubDate>Mon, 21 Oct 2019 00:00:00 +0000</pubDate>
+      
+      <guid>https://leenahere.github.io/blog/workshop/</guid>
+      <description>&lt;p&gt;Yesterday (on a Sunday) I coaxed some of my friends to run the first trial for my master thesis with me.&lt;/p&gt;</description>
     </item>
     
     <item>
