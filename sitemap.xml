@@ -19,6 +19,10 @@
   </url>
   
   <url>
+    <loc>https://leenahere.github.io/projects/hackachtondresden/</loc>
+  </url>
+  
+  <url>
     <loc>https://leenahere.github.io/projects/ulyssesapp/</loc>
   </url>
   
@@ -284,6 +288,11 @@
   
   <url>
     <loc>https://leenahere.github.io/tags/study/</loc>
+    <priority>0</priority>
+  </url>
+  
+  <url>
+    <loc>https://leenahere.github.io/tags/tensorflow/</loc>
     <priority>0</priority>
   </url>
   
