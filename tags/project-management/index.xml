@@ -11,21 +11,21 @@
     
     
     <item>
-      <title>Internship</title>
-      <link>https://leenahere.github.io/projects/lufthansa/</link>
-      <pubDate>Mon, 01 Jan 0001 00:00:00 +0000</pubDate>
-      
-      <guid>https://leenahere.github.io/projects/lufthansa/</guid>
-      <description>I completed my mandatory internship at Lufthansa in the &amp;ldquo;Sales &amp;amp; Digital Customer Experience&amp;rdquo; department. I supported several IT project managers in projects related to the Lufthansa website and mobile platforms. I also supported a project in which a facebook chatbot was developed as an MVP.</description>
-    </item>
-    
-    <item>
       <title>Project Management</title>
       <link>https://leenahere.github.io/projects/projectmanagement/</link>
       <pubDate>Mon, 01 Jan 0001 00:00:00 +0000</pubDate>
       
       <guid>https://leenahere.github.io/projects/projectmanagement/</guid>
       <description>In 2017 and 2018 I took over the project management of a student project for two semesters. This project is a mandatory part of the Bachelor&amp;rsquo;s and Master&amp;rsquo;s program in which a team of 10-15 students develops a software over two semesters. The bachelor students function as the development team and the master students take over the project management part. Since the development is based on Scrum, the master students act as Software Architect, Product Owner and Scrum Master.</description>
+    </item>
+    
+    <item>
+      <title>Internship</title>
+      <link>https://leenahere.github.io/projects/lufthansa/</link>
+      <pubDate>Mon, 01 Jan 0001 00:00:00 +0000</pubDate>
+      
+      <guid>https://leenahere.github.io/projects/lufthansa/</guid>
+      <description>I completed my mandatory internship at Lufthansa in the &amp;ldquo;Sales &amp;amp; Digital Customer Experience&amp;rdquo; department. I supported several IT project managers in projects related to the Lufthansa website and mobile platforms. I also supported a project in which a facebook chatbot was developed as an MVP.</description>
     </item>
     
   </channel>

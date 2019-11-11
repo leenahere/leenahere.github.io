@@ -18,7 +18,7 @@
       
       <guid>https://leenahere.github.io/projects/bachelorthesis/</guid>
       <description>In 2016 and 2017 I wrote my thesis about conversational interfaces. My goal was to establish a design and development process for conversational interfaces. I mainly based my theories on Pangaro&amp;rsquo;s design for conversation, Grice&amp;rsquo;s cooperative principles and &amp;ldquo;The Media Equation&amp;rdquo; by Reeves and Nass.
-To proof my theoretical concepts I programmed a facebook chatbot with wit.ai that was able to look up recipes. The bot was tested in a live trial and in a survey testers were able to judge the effectiveness of the conversation with the chatbot.</description>
+To proof my theoretical concepts I developed a facebook chatbot with wit.ai that was able to look up recipes. The bot was tested in a live trial and in a survey testers were able to judge the effectiveness of the conversation with the chatbot.</description>
     </item>
     
     <item>
@@ -33,6 +33,24 @@ You can find more information about the HTWK Smart Driving Team here.</descripti
     </item>
     
     <item>
+      <title>Code Girls Arduino Workshop</title>
+      <link>https://leenahere.github.io/projects/codegirlsarduino/</link>
+      <pubDate>Mon, 01 Jan 0001 00:00:00 +0000</pubDate>
+      
+      <guid>https://leenahere.github.io/projects/codegirlsarduino/</guid>
+      <description>Code Girls is a non-profit organization that offers workshops and lectures related to computer science for females. This year, we held an Arduino workshop for programming novices. The workshop followed a collaborative project-based approach and the participants were engaged in building a smart home inspired by Buster Keaton&amp;rsquo;s electric house. Each team built a single room, deciding on sensors, actuators and functionalities individually. In the end, we assembled all rooms to one large smart home.</description>
+    </item>
+    
+    <item>
+      <title>Mentor @ Jugend hackt</title>
+      <link>https://leenahere.github.io/projects/jugendhacktmentor/</link>
+      <pubDate>Mon, 01 Jan 0001 00:00:00 +0000</pubDate>
+      
+      <guid>https://leenahere.github.io/projects/jugendhacktmentor/</guid>
+      <description>Jugend hackt, which is a hackathon for kids and teenagers, takes place in cities all over Germany. At the hackathon children and teenagers (12-18 years old) come together for a weekend and work on various projects in groups. The event is all about improving the world with code and the kids can be creative and pursue their individual goals while learning about different technologies. In August 2018 the hackathon took place in Halle and I mentored a group of the younger kids who programmed a website to provide information about chicken farming in Germany.</description>
+    </item>
+    
+    <item>
       <title>Paper – SKILL 2018</title>
       <link>https://leenahere.github.io/projects/paperschoolrobots/</link>
       <pubDate>Mon, 01 Jan 0001 00:00:00 +0000</pubDate>
@@ -42,11 +60,20 @@ You can find more information about the HTWK Smart Driving Team here.</descripti
     </item>
     
     <item>
-      <title>Code Girls Arduino Workshop</title>
-      <link>https://leenahere.github.io/projects/codegirlsarduino/</link>
+      <title>Mentor @ helpING Academy</title>
+      <link>https://leenahere.github.io/projects/helpingmentor/</link>
       <pubDate>Mon, 01 Jan 0001 00:00:00 +0000</pubDate>
       
-      <guid>https://leenahere.github.io/projects/codegirlsarduino/</guid>
+      <guid>https://leenahere.github.io/projects/helpingmentor/</guid>
+      <description>The helpING! academy for high school girls interested in STEM is a free, innovative, one-week academy for career and study choice orientation within the framework of the project &amp;ldquo;helpING - meet tomorrow&amp;rsquo;s social challenges with STEM competence and social commitment&amp;rdquo; funded by the Federal Ministry of Education and Research (BMBF). The project helpING! is supported by the Federal Ministry of Education and Research in the funding line &amp;ldquo;Success with STEM - New Opportunities for Women&amp;rdquo;.</description>
+    </item>
+    
+    <item>
+      <title>Genetic Algorithms – Art Gallery Problem</title>
+      <link>https://leenahere.github.io/projects/geneticalgorithm/</link>
+      <pubDate>Mon, 01 Jan 0001 00:00:00 +0000</pubDate>
+      
+      <guid>https://leenahere.github.io/projects/geneticalgorithm/</guid>
       <description></description>
     </item>
     
@@ -60,21 +87,21 @@ You can find more information about the HTWK Smart Driving Team here.</descripti
     </item>
     
     <item>
+      <title>Project Management</title>
+      <link>https://leenahere.github.io/projects/projectmanagement/</link>
+      <pubDate>Mon, 01 Jan 0001 00:00:00 +0000</pubDate>
+      
+      <guid>https://leenahere.github.io/projects/projectmanagement/</guid>
+      <description>In 2017 and 2018 I took over the project management of a student project for two semesters. This project is a mandatory part of the Bachelor&amp;rsquo;s and Master&amp;rsquo;s program in which a team of 10-15 students develops a software over two semesters. The bachelor students function as the development team and the master students take over the project management part. Since the development is based on Scrum, the master students act as Software Architect, Product Owner and Scrum Master.</description>
+    </item>
+    
+    <item>
       <title>iOS / macOS Software Developer</title>
       <link>https://leenahere.github.io/projects/ulyssesapp/</link>
       <pubDate>Mon, 01 Jan 0001 00:00:00 +0000</pubDate>
       
       <guid>https://leenahere.github.io/projects/ulyssesapp/</guid>
       <description>In 2014, I began working in customer support at Ulysses. I helped customers deal with the macOS and iOS app, recorded feature requests and reported bugs. When I came back to Leipzig after my internship in 2016, I switched roles and started co-developing the app. I implemented new features like reading time goals and fixed bugs.</description>
-    </item>
-    
-    <item>
-      <title>Internship</title>
-      <link>https://leenahere.github.io/projects/lufthansa/</link>
-      <pubDate>Mon, 01 Jan 0001 00:00:00 +0000</pubDate>
-      
-      <guid>https://leenahere.github.io/projects/lufthansa/</guid>
-      <description>I completed my mandatory internship at Lufthansa in the &amp;ldquo;Sales &amp;amp; Digital Customer Experience&amp;rdquo; department. I supported several IT project managers in projects related to the Lufthansa website and mobile platforms. I also supported a project in which a facebook chatbot was developed as an MVP.</description>
     </item>
     
     <item>
@@ -87,12 +114,12 @@ You can find more information about the HTWK Smart Driving Team here.</descripti
     </item>
     
     <item>
-      <title>Project Management</title>
-      <link>https://leenahere.github.io/projects/projectmanagement/</link>
+      <title>Internship</title>
+      <link>https://leenahere.github.io/projects/lufthansa/</link>
       <pubDate>Mon, 01 Jan 0001 00:00:00 +0000</pubDate>
       
-      <guid>https://leenahere.github.io/projects/projectmanagement/</guid>
-      <description>In 2017 and 2018 I took over the project management of a student project for two semesters. This project is a mandatory part of the Bachelor&amp;rsquo;s and Master&amp;rsquo;s program in which a team of 10-15 students develops a software over two semesters. The bachelor students function as the development team and the master students take over the project management part. Since the development is based on Scrum, the master students act as Software Architect, Product Owner and Scrum Master.</description>
+      <guid>https://leenahere.github.io/projects/lufthansa/</guid>
+      <description>I completed my mandatory internship at Lufthansa in the &amp;ldquo;Sales &amp;amp; Digital Customer Experience&amp;rdquo; department. I supported several IT project managers in projects related to the Lufthansa website and mobile platforms. I also supported a project in which a facebook chatbot was developed as an MVP.</description>
     </item>
     
     <item>
@@ -102,33 +129,6 @@ You can find more information about the HTWK Smart Driving Team here.</descripti
       
       <guid>https://leenahere.github.io/projects/dghd/</guid>
       <description>In 2018 and 2019 I completely rebuilt the website for the conference for the german didactics of higher education which took place at the university of Leipzig in March 2019. The website can be found here.</description>
-    </item>
-    
-    <item>
-      <title>Genetic Algorithms – Art Gallery Problem</title>
-      <link>https://leenahere.github.io/projects/geneticalgorithm/</link>
-      <pubDate>Mon, 01 Jan 0001 00:00:00 +0000</pubDate>
-      
-      <guid>https://leenahere.github.io/projects/geneticalgorithm/</guid>
-      <description></description>
-    </item>
-    
-    <item>
-      <title>Mentor @ Jugend hackt</title>
-      <link>https://leenahere.github.io/projects/jugendhacktmentor/</link>
-      <pubDate>Mon, 01 Jan 0001 00:00:00 +0000</pubDate>
-      
-      <guid>https://leenahere.github.io/projects/jugendhacktmentor/</guid>
-      <description>Jugend hackt, which is a hackathon for kids and teenagers, takes place in cities all over Germany. At the hackathon children and teenagers (12-18 years old) come together for a weekend and work on various projects in groups. The event is all about improving the world with code and the kids can be creative and pursue their individual goals while learning about different technologies. In August 2018 the hackathon took place in Halle and I mentored a group of the younger kids who programmed a website to provide information about chicken farming in Germany.</description>
-    </item>
-    
-    <item>
-      <title>Mentor @ helpING Academy</title>
-      <link>https://leenahere.github.io/projects/helpingmentor/</link>
-      <pubDate>Mon, 01 Jan 0001 00:00:00 +0000</pubDate>
-      
-      <guid>https://leenahere.github.io/projects/helpingmentor/</guid>
-      <description>The helpING! academy for high school girls interested in STEM is a free, innovative, one-week academy for career and study choice orientation within the framework of the project &amp;ldquo;helpING - meet tomorrow&amp;rsquo;s social challenges with STEM competence and social commitment&amp;rdquo; funded by the Federal Ministry of Education and Research (BMBF). The project helpING! is supported by the Federal Ministry of Education and Research in the funding line &amp;ldquo;Success with STEM - New Opportunities for Women&amp;rdquo;.</description>
     </item>
     
     <item>
