@@ -12,6 +12,16 @@
     
     
     <item>
+      <title>Master Thesis</title>
+      <link>https://leenahere.github.io/projects/masterthesis/</link>
+      <pubDate>Mon, 01 Jan 0001 00:00:00 +0000</pubDate>
+      
+      <guid>https://leenahere.github.io/projects/masterthesis/</guid>
+      <description>To complete my master&amp;rsquo;s degree at the University of Applied Sciences, I wrote my master&amp;rsquo;s thesis titled An Educational Programming Environment for Teaching the Principles of Machine Learning using LEGO MINDSTORMS.
+On the 6th of December 2019 the thesis will officially be submitted. The GitHub repositories with the respective code and the thesis will then be posted here. More information can be found in several blog posts I posted here.</description>
+    </item>
+    
+    <item>
       <title>Machine Learning with Lego Mindstorms EV3</title>
       <link>https://leenahere.github.io/blog/ml-with-ev3/</link>
       <pubDate>Thu, 06 Jun 2019 00:00:00 +0000</pubDate>
