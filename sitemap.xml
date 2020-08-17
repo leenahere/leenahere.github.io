@@ -1,4 +1,4 @@
-<?xml version="1.0" encoding="utf-8" standalone="yes" ?>
+<?xml version="1.0" encoding="utf-8" standalone="yes"?>
 <urlset xmlns="http://www.sitemaps.org/schemas/sitemap/0.9"
   xmlns:xhtml="http://www.w3.org/1999/xhtml">
   
@@ -69,19 +69,21 @@
   <url>
     <loc>https://leenahere.github.io/blog/</loc>
     <lastmod>2019-10-21T00:00:00+00:00</lastmod>
-    <priority>0</priority>
   </url>
   
   <url>
     <loc>https://leenahere.github.io/</loc>
     <lastmod>2019-10-21T00:00:00+00:00</lastmod>
-    <priority>0</priority>
   </url>
   
   <url>
     <loc>https://leenahere.github.io/tags/</loc>
     <lastmod>2019-10-21T00:00:00+00:00</lastmod>
-    <priority>0</priority>
+  </url>
+  
+  <url>
+    <loc>https://leenahere.github.io/tags/thesis/</loc>
+    <lastmod>2019-10-21T00:00:00+00:00</lastmod>
   </url>
   
   <url>
@@ -90,15 +92,8 @@
   </url>
   
   <url>
-    <loc>https://leenahere.github.io/tags/thesis/</loc>
-    <lastmod>2019-10-21T00:00:00+00:00</lastmod>
-    <priority>0</priority>
-  </url>
-  
-  <url>
     <loc>https://leenahere.github.io/tags/workshop/</loc>
     <lastmod>2019-10-21T00:00:00+00:00</lastmod>
-    <priority>0</priority>
   </url>
   
   <url>
@@ -109,42 +104,36 @@
   <url>
     <loc>https://leenahere.github.io/tags/chaos/</loc>
     <lastmod>2019-07-25T00:00:00+00:00</lastmod>
-    <priority>0</priority>
   </url>
   
   <url>
     <loc>https://leenahere.github.io/tags/organization/</loc>
     <lastmod>2019-07-25T00:00:00+00:00</lastmod>
-    <priority>0</priority>
-  </url>
-  
-  <url>
-    <loc>https://leenahere.github.io/blog/ml-with-ev3/</loc>
-    <lastmod>2019-06-06T00:00:00+00:00</lastmod>
   </url>
   
   <url>
     <loc>https://leenahere.github.io/tags/education/</loc>
     <lastmod>2019-06-06T00:00:00+00:00</lastmod>
-    <priority>0</priority>
   </url>
   
   <url>
     <loc>https://leenahere.github.io/tags/ev3/</loc>
     <lastmod>2019-06-06T00:00:00+00:00</lastmod>
-    <priority>0</priority>
   </url>
   
   <url>
     <loc>https://leenahere.github.io/tags/lego/</loc>
     <lastmod>2019-06-06T00:00:00+00:00</lastmod>
-    <priority>0</priority>
   </url>
   
   <url>
     <loc>https://leenahere.github.io/tags/machine-learning/</loc>
     <lastmod>2019-06-06T00:00:00+00:00</lastmod>
-    <priority>0</priority>
+  </url>
+  
+  <url>
+    <loc>https://leenahere.github.io/blog/ml-with-ev3/</loc>
+    <lastmod>2019-06-06T00:00:00+00:00</lastmod>
   </url>
   
   <url>
@@ -155,13 +144,16 @@
   <url>
     <loc>https://leenahere.github.io/tags/math/</loc>
     <lastmod>2019-05-24T00:00:00+00:00</lastmod>
-    <priority>0</priority>
   </url>
   
   <url>
     <loc>https://leenahere.github.io/tags/nontech/</loc>
     <lastmod>2019-05-24T00:00:00+00:00</lastmod>
-    <priority>0</priority>
+  </url>
+  
+  <url>
+    <loc>https://leenahere.github.io/tags/research/</loc>
+    <lastmod>2019-05-09T00:00:00+00:00</lastmod>
   </url>
   
   <url>
@@ -170,154 +162,120 @@
   </url>
   
   <url>
-    <loc>https://leenahere.github.io/tags/research/</loc>
-    <lastmod>2019-05-09T00:00:00+00:00</lastmod>
-    <priority>0</priority>
-  </url>
-  
-  <url>
     <loc>https://leenahere.github.io/blog/research/</loc>
     <lastmod>2019-04-20T00:00:00+00:00</lastmod>
   </url>
   
   <url>
-    <loc>https://leenahere.github.io/categories/</loc>
-    <priority>0</priority>
-  </url>
-  
-  <url>
-    <loc>https://leenahere.github.io/projects/</loc>
-    <priority>0</priority>
-  </url>
-  
-  <url>
     <loc>https://leenahere.github.io/tags/ai/</loc>
-    <priority>0</priority>
   </url>
   
   <url>
     <loc>https://leenahere.github.io/tags/android/</loc>
-    <priority>0</priority>
   </url>
   
   <url>
     <loc>https://leenahere.github.io/tags/arduino/</loc>
-    <priority>0</priority>
   </url>
   
   <url>
     <loc>https://leenahere.github.io/tags/autonomousdriving/</loc>
-    <priority>0</priority>
   </url>
   
   <url>
     <loc>https://leenahere.github.io/tags/c&#43;&#43;/</loc>
-    <priority>0</priority>
+  </url>
+  
+  <url>
+    <loc>https://leenahere.github.io/categories/</loc>
   </url>
   
   <url>
     <loc>https://leenahere.github.io/tags/go/</loc>
-    <priority>0</priority>
-  </url>
-  
-  <url>
-    <loc>https://leenahere.github.io/tags/ios/</loc>
-    <priority>0</priority>
   </url>
   
   <url>
     <loc>https://leenahere.github.io/tags/internship/</loc>
-    <priority>0</priority>
+  </url>
+  
+  <url>
+    <loc>https://leenahere.github.io/tags/ios/</loc>
   </url>
   
   <url>
     <loc>https://leenahere.github.io/tags/java/</loc>
-    <priority>0</priority>
   </url>
   
   <url>
     <loc>https://leenahere.github.io/tags/kids/</loc>
-    <priority>0</priority>
   </url>
   
   <url>
     <loc>https://leenahere.github.io/tags/macos/</loc>
-    <priority>0</priority>
   </url>
   
   <url>
     <loc>https://leenahere.github.io/tags/mentoring/</loc>
-    <priority>0</priority>
   </url>
   
   <url>
     <loc>https://leenahere.github.io/tags/nodejs/</loc>
-    <priority>0</priority>
   </url>
   
   <url>
     <loc>https://leenahere.github.io/tags/objective-c/</loc>
-    <priority>0</priority>
   </url>
   
   <url>
     <loc>https://leenahere.github.io/tags/project-management/</loc>
-    <priority>0</priority>
+  </url>
+  
+  <url>
+    <loc>https://leenahere.github.io/projects/</loc>
   </url>
   
   <url>
     <loc>https://leenahere.github.io/tags/python/</loc>
-    <priority>0</priority>
   </url>
   
   <url>
     <loc>https://leenahere.github.io/tags/raspberrypi/</loc>
-    <priority>0</priority>
   </url>
   
   <url>
     <loc>https://leenahere.github.io/tags/react/</loc>
-    <priority>0</priority>
   </url>
   
   <url>
     <loc>https://leenahere.github.io/tags/robotics/</loc>
-    <priority>0</priority>
   </url>
   
   <url>
     <loc>https://leenahere.github.io/tags/social/</loc>
-    <priority>0</priority>
   </url>
   
   <url>
     <loc>https://leenahere.github.io/tags/study/</loc>
-    <priority>0</priority>
   </url>
   
   <url>
     <loc>https://leenahere.github.io/tags/tensorflow/</loc>
-    <priority>0</priority>
   </url>
   
   <url>
     <loc>https://leenahere.github.io/tags/theoretical/</loc>
-    <priority>0</priority>
   </url>
   
   <url>
     <loc>https://leenahere.github.io/tags/web/</loc>
-    <priority>0</priority>
   </url>
   
   <url>
     <loc>https://leenahere.github.io/tags/wordpress/</loc>
-    <priority>0</priority>
   </url>
   
   <url>
     <loc>https://leenahere.github.io/tags/work/</loc>
-    <priority>0</priority>
   </url>
   
 </urlset>

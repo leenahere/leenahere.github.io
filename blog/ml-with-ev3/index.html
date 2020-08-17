@@ -14,7 +14,7 @@
     }
 
     :root {
-        --accent: #7e8c91;
+        --accent: #ff6a00;
         --border-width:  5px ;
     }
 
@@ -60,7 +60,7 @@
 
 
 <script>$(document).on('click', function() { $('.collapse').collapse('hide'); })</script>
- <meta name="generator" content="Hugo 0.56.1" />
+ <meta name="generator" content="Hugo 0.74.3" />
         
 
         
@@ -155,189 +155,122 @@
 
 
     <br> <div class="content"><p>Today I present to you: Another Machine Learning tutorial that no one asked for.</p>
-
-<p><img src="/images/robotlove.gif" alt="robotlove" /></p>
-
+<p><img src="/images/robotlove.gif" alt="robotlove"></p>
 <p>As part of my master thesis, I developed a workflow and exercises to bring Machine Learning (ML) to LEGO Mindstorms EV3. To give you a bit of background about my thesis, my aim is to create an educational programming environment to teach high school students about Machine Learning algorithms using LEGO Mindstorms. Finding a suitable task for teaching kids (or rather teenagers) ML algorithms wasn’t the easiest considering the limited resources and sensors the EV3 has to offer. I call the task that I outline in this post the <em>“MNIST of tiny robots that can’t see”</em>, as we’re going to build a robot that can classify digits or shapes on the ground.</p>
-
 <h2 id="prerequisites">Prerequisites</h2>
-
 <p>To follow this tutorial, a basic knowledge of programming and Python is necessary. This is something I&rsquo;m really hoping to change with my <a href="https://leenahere.github.io/blog/research-proposal/">current research</a> (shameless self-promo), as I think a basic understanding of Machine Learning algorithms never hurt nobody and should be accessible to anyone.</p>
-
-<p><img src="/images/robot.jpg" alt="robot" /></p>
-
+<p><img src="/images/robot.jpg" alt="robot"></p>
 <p>For this tutorial you need the Lego Mindstorms EV3. You can follow the <a href="https://le-www-live-s.legocdn.com/sc/media/lessons/mindstorms-ev3/building-instructions/ev3-rem-color-sensor-down-driving-base-d30ed30610c3d6647d56e17bc64cf6e2.pdf">instructions</a> on the official LEGO page to build the robot that I built, or be creative and build your own. I added two more color sensors, so I have three color sensors set up in a row. You could do the tutorial with only one color sensor as well. However, all the scripts and the training and test data are based on three sensors and you will need to alter the code a bit to make it work with one sensor. Moreover, I added a touch sensor to the robot with which I can terminate the program.</p>
-
 <p>To create shapes and digits that the robot can follow, you need tape. It doesn&rsquo;t necessarily have to be black tape, but it has to have a width of around 1.5 to 2 cm.</p>
-
 <p>On the EV3, you need to have ev3dev running. They have a <a href="https://www.ev3dev.org/docs/getting-started/">great tutorial</a> to get you started with the operating system. On a computer you can follow <a href="https://github.com/ev3dev/vscode-ev3dev-browser">this tutorial</a> to set up Visual Studio Code for your EV3. Once you connected your EV3 to VS Code on your computer, open a SSH terminal by right-clicking on the EV3 instance in the device browser. Then, install all the libraries that we&rsquo;ll need for the tutorial with the following command.</p>
-
-<pre><code class="language-shell">sudo apt-get install python-numpy python-matplotlib python-scipy python-pandas python-sklearn
-</code></pre>
-
-<p>All the code that is mentioned in this tutorial can be found <a href="https://github.com/leenahere/ai-for-ev3">on GitHub</a>.</p>
-
+<div class="highlight"><pre style="color:#f8f8f2;background-color:#272822;-moz-tab-size:4;-o-tab-size:4;tab-size:4"><code class="language-shell" data-lang="shell">sudo apt-get install python-numpy python-matplotlib python-scipy python-pandas python-sklearn
+</code></pre></div><p>All the code that is mentioned in this tutorial can be found <a href="https://github.com/leenahere/ai-for-ev3">on GitHub</a>.</p>
 <h2 id="a-very-shallow-introduction-to-machine-learning">A very shallow introduction to Machine Learning</h2>
-
 <p>To put it in simple terms, Machine Learning is predicting something based on some kind of data. With all the media attention that this computer science field got in the last years, let’s quickly sort out this buzzword bingo. Machine Learning is <strong>not equal</strong> to the term Artificial Intelligence. Also Machine Learning is <strong>not just</strong> Artificial Neural Networks. There&rsquo;s a bunch of different Machine Learning methods. We&rsquo;ll work with a few different ones including neural networks in this tutorial.</p>
-
-<p><img src="/images/ai_ml_nn_dl.png" alt="ml" /></p>
-
+<p><img src="/images/ai_ml_nn_dl.png" alt="ml"></p>
 <p>To be specific this tutorial is about classical Machine Learning and to be even more specific we are only going to learn about supervised learning algorithms to solve a classification problem. As opposed to unsupervised learning, the machine learns with <em>labeled data</em>. This means that while learning the machine gets the answers with the data. In our case we are going to use the sensor data that has been collected while following the line of a digit or shape. We label each collected data point with the <em>answer</em>, meaning the class of the digit or shape the robot followed. In the rest of the tutorial I will use the term training and test data.</p>
-
 <p>As the task <em>“Classifying Digits and Shapes”</em> already foreshadows, we’re dealing with a classification problem here, so we want to categorize data in some way. Another set of problems that you often deal with in Machine Learning are regression problems. For instance, predicting stock prices is a regression problem.</p>
-
 <p>In this tutorial, we are going to look at the following algorithms:</p>
-
 <ul>
 <li>K-Nearest Neighbors</li>
 <li>Support Vector Machines</li>
 <li>Logistic Regression</li>
 <li>Multi Layer Perceptron (Feedforward Neural Network)</li>
 </ul>
-
 <p>All these algorithms can be used to solve classification problems. There are awesome tutorials on each of these algorithms that explain in depth how they work and they can definitely do it much better than me. For the sake of completeness, here’s me trying to explain each of these algorithms in one sentence:</p>
-
 <p><strong>K-Nearest Neighbors</strong></p>
-
 <p>Look at the classes of the 3 (this is the mysterious k which is a parameter you can set) nearest neighbors of one data point and then make a majority decision to predict the class of that data point.</p>
-
 <p><strong>Support Vector Machines</strong></p>
-
 <p>To classify your data, separate your data points with two parallel lines and make sure the two lines are as far apart as possible.</p>
-
 <p><strong>Logistic Regression</strong></p>
-
 <p>You categorize your data points with a log-odds function, where everything <em>below</em> the function belongs to one class and everything <em>above</em> the function belongs to another class.</p>
-
 <p><strong>Multi Layer Perceptron</strong></p>
-
 <p>Unicorn magic shit, so wow! All joking aside, this just can&rsquo;t be explained in a single sentence. MLPs are Feedforward Neural Networks which is the simplest type of neural networks. The training of these networks is done through something called Backpropagation. You can find a very nice introduction to Neural Networks in <a href="https://vas3k.com/blog/machine_learning/#scroll220">this blog post</a>.</p>
-
 <p>One last thing I’d like to touch on is the difference between binary and multinomial classification. When you look at the GitHub repository, you’ll see that besides the digit classification, I tested some of the algorithms on a binary classification problem. Instead of digits I categorize circles and squares. Wrapping your head around these Machine Learning algorithms is a lot easier when you start with just two classes. Some classification algorithms like MLP naturally support multiple classes, others like support vector machines and logistic regression need to be modified to support multiple classes.</p>
-
 <p>To implement all these algorithms, we are going to use scikit-learn which is a Python Machine Learning library. The great thing about scikit-learn is that all the aforementioned algorithms are already pre-built, so you can just start using them on your data and it’s usually just two to three lines of code.</p>
-
 <h2 id="the-line-following-algorithm">The Line Following algorithm</h2>
-
-<p><img src="/images/lines.jpg" alt="lines" />
+<p><img src="/images/lines.jpg" alt="lines">
 <em>Photo by Samuel Zeller on Unsplash</em></p>
-
 <p>As a first step, you will need to develop a line following algorithm. There are hundreds of tutorials on how to make a robot follow a line. I highly suggest that you try out some different approaches. Keep in mind that digits have quite sharp angles that the robot has to be able to follow. As mentioned before, you can develop an algorithm with one or even three color sensors. In the repo you will find two different line following algorithms. The first version of the line follower is a very basic implementation that doesn’t work too well on sharp angles and turns. The second version of the line follower is tailored to the very specific task of following a digit’s shape and might not be the most performant algorithm when it comes to following a curvy line. You can use one of my algorithms, but I highly suggest that you try to develop your own. I’m sure there’s a much better solution than mine.</p>
-
 <h2 id="data-data-data">Data, Data, Data</h2>
-
-<p><img src="https://media.giphy.com/media/m77wEsvF99FyU/giphy.gif" alt="data" /></p>
-
+<p><img src="https://media.giphy.com/media/m77wEsvF99FyU/giphy.gif" alt="data"></p>
 <p>The Machine Learning algorithms I introduced before don’t just magically work on any problems that we apply them to. You need training and test data for that. When you look at other Machine Learning tutorials, they usually work with an open-source data set like MNIST. Unfortunately, there’s no out of the box data set for our problem, so we need to create the training and test data ourselves.</p>
-
 <p>When collecting the data yourself, you have to think about the features that are important to the classification problem. In our case, all the sensor data (three color sensors &amp; acceleration of the two motors) that we have is essential for classifying the digits or shapes. The line following scripts in the repo automatically write all sensor data into a text file.</p>
+<div class="highlight"><pre style="color:#f8f8f2;background-color:#272822;-moz-tab-size:4;-o-tab-size:4;tab-size:4"><code class="language-python" data-lang="python">f <span style="color:#f92672">=</span> open(<span style="color:#e6db74">&#34;data.txt&#34;</span>, <span style="color:#e6db74">&#34;w+&#34;</span>)
 
-<pre><code class="language-python">f = open(&quot;data.txt&quot;, &quot;w+&quot;)
-
-# Write sensor data to text file
-f.write(str(col_left.value()) + &quot;,&quot; + str(col_mid.value()) + &quot;,&quot; + str(col_right.value()) + &quot;,&quot; + str(left_motor.speed) + &quot;,&quot; + str(right_motor.speed) + &quot;\n&quot;)
-</code></pre>
-
-<p>You can easily create your own data by running that script on any digit. After each run, save the text file for a digit on your computer through the Upload option in VS Code. Just right-click the data file in the device browser. I won’t sugarcoat it: Collecting the training and test data that is included in the repo was annoying and took quite some time. However, I would still recommend you collect the data with the line follower of your choice, as I collected the data on the v1 line follower. Given the results, I think getting 40 data points for each digit or shape was a little bit of an overkill. I reckon 25–30 for each digit or shape will do the trick.</p>
-
+<span style="color:#75715e"># Write sensor data to text file</span>
+f<span style="color:#f92672">.</span>write(str(col_left<span style="color:#f92672">.</span>value()) <span style="color:#f92672">+</span> <span style="color:#e6db74">&#34;,&#34;</span> <span style="color:#f92672">+</span> str(col_mid<span style="color:#f92672">.</span>value()) <span style="color:#f92672">+</span> <span style="color:#e6db74">&#34;,&#34;</span> <span style="color:#f92672">+</span> str(col_right<span style="color:#f92672">.</span>value()) <span style="color:#f92672">+</span> <span style="color:#e6db74">&#34;,&#34;</span> <span style="color:#f92672">+</span> str(left_motor<span style="color:#f92672">.</span>speed) <span style="color:#f92672">+</span> <span style="color:#e6db74">&#34;,&#34;</span> <span style="color:#f92672">+</span> str(right_motor<span style="color:#f92672">.</span>speed) <span style="color:#f92672">+</span> <span style="color:#e6db74">&#34;</span><span style="color:#ae81ff">\n</span><span style="color:#e6db74">&#34;</span>)
+</code></pre></div><p>You can easily create your own data by running that script on any digit. After each run, save the text file for a digit on your computer through the Upload option in VS Code. Just right-click the data file in the device browser. I won’t sugarcoat it: Collecting the training and test data that is included in the repo was annoying and took quite some time. However, I would still recommend you collect the data with the line follower of your choice, as I collected the data on the v1 line follower. Given the results, I think getting 40 data points for each digit or shape was a little bit of an overkill. I reckon 25–30 for each digit or shape will do the trick.</p>
 <h2 id="the-basic-workflow">The Basic Workflow</h2>
-
 <p>Once you collected your data, it’s time to check out the different algorithms for our classification problem. Before getting started with training a model, we need to make sure that the data we collected has the correct format. There are a few noteworthy things here. The robot might need longer to drive over some digits and shapes than others. Therefore, we need to make sure that the data sets are equal in length. There are different approaches to solve this. I decided to pad the data with zeros, so that they all have the length of the longest data set that’s been collected:</p>
-
-<pre><code class="language-Python">def pad_arrays(array, longest):
-    if len(array) &lt; longest:
-        filler = longest - len(array)
-        filler_array = []
-        for i in range(0, filler):
-            zero_array = [0, 0, 0, 0, 0]
-            filler_array.append(zero_array)
-        return np.concatenate((array, filler_array), axis=0)
-    else:
-        return array
-</code></pre>
-
-<p>Moreover, we’re working on sequential data (time series data) right now which is not the best fit for the algorithms listed above. To make things easier to understand, we take the average of each of the different sensor values.</p>
-
+<div class="highlight"><pre style="color:#f8f8f2;background-color:#272822;-moz-tab-size:4;-o-tab-size:4;tab-size:4"><code class="language-Python" data-lang="Python"><span style="color:#66d9ef">def</span> <span style="color:#a6e22e">pad_arrays</span>(array, longest):
+    <span style="color:#66d9ef">if</span> len(array) <span style="color:#f92672">&lt;</span> longest:
+        filler <span style="color:#f92672">=</span> longest <span style="color:#f92672">-</span> len(array)
+        filler_array <span style="color:#f92672">=</span> []
+        <span style="color:#66d9ef">for</span> i <span style="color:#f92672">in</span> range(<span style="color:#ae81ff">0</span>, filler):
+            zero_array <span style="color:#f92672">=</span> [<span style="color:#ae81ff">0</span>, <span style="color:#ae81ff">0</span>, <span style="color:#ae81ff">0</span>, <span style="color:#ae81ff">0</span>, <span style="color:#ae81ff">0</span>]
+            filler_array<span style="color:#f92672">.</span>append(zero_array)
+        <span style="color:#66d9ef">return</span> np<span style="color:#f92672">.</span>concatenate((array, filler_array), axis<span style="color:#f92672">=</span><span style="color:#ae81ff">0</span>)
+    <span style="color:#66d9ef">else</span>:
+        <span style="color:#66d9ef">return</span> array
+</code></pre></div><p>Moreover, we’re working on sequential data (time series data) right now which is not the best fit for the algorithms listed above. To make things easier to understand, we take the average of each of the different sensor values.</p>
 <p>Additionally, you need the correct classifications for the training and test data which I simply created for the digit data with the following function.</p>
+<div class="highlight"><pre style="color:#f8f8f2;background-color:#272822;-moz-tab-size:4;-o-tab-size:4;tab-size:4"><code class="language-Python" data-lang="Python"><span style="color:#66d9ef">def</span> <span style="color:#a6e22e">class_array</span>():
+    driven_digits <span style="color:#f92672">=</span> []
 
-<pre><code class="language-Python">def class_array():
-    driven_digits = []
+    <span style="color:#66d9ef">for</span> i <span style="color:#f92672">in</span> range(<span style="color:#ae81ff">1</span>, <span style="color:#ae81ff">10</span>):
+            <span style="color:#66d9ef">for</span> j <span style="color:#f92672">in</span> range(<span style="color:#ae81ff">0</span>, <span style="color:#ae81ff">32</span>):
+                driven_digits<span style="color:#f92672">.</span>append(i)
 
-    for i in range(1, 10):
-            for j in range(0, 32):
-                driven_digits.append(i)
-
-    return driven_digits
-</code></pre>
-
-<p>As soon as you have your <code>X</code> (training and test data points) and <code>y</code> (the answer (class) to each data point in X) for training the model, the procedure is very straightforward and similar for each algorithm:</p>
-
+    <span style="color:#66d9ef">return</span> driven_digits
+</code></pre></div><p>As soon as you have your <code>X</code> (training and test data points) and <code>y</code> (the answer (class) to each data point in X) for training the model, the procedure is very straightforward and similar for each algorithm:</p>
 <ul>
 <li>Split data into training and test data</li>
 <li>Scale the data if required</li>
 <li>Create the classifier</li>
 <li>Fit the model to the training data</li>
 <li>Make predictions for the test data</li>
-
-<li><p>Print the confusion matrix and the classification report</p>
-
-<pre><code class="language-python">X_train, X_test, y_train, y_test = train_test_split(X, y)
-
-scaler = StandardScaler()
-scaler.fit(X_train)
-
-X_train = scaler.transform(X_train)
-X_test = scaler.transform(X_test)
-
-mlp = MLPClassifier(hidden_layer_sizes=(13,13,13),max_iter=500)
-mlp.fit(X_train,y_train)
-
-predictions = mlp.predict(X_test)
-
-print(confusion_matrix(y_test,predictions))
-print(classification_report(y_test,predictions))
-</code></pre></li>
+<li>Print the confusion matrix and the classification report</li>
 </ul>
+<div class="highlight"><pre style="color:#f8f8f2;background-color:#272822;-moz-tab-size:4;-o-tab-size:4;tab-size:4"><code class="language-python" data-lang="python">X_train, X_test, y_train, y_test <span style="color:#f92672">=</span> train_test_split(X, y)
 
-<p>Training the different models can be done on your computer instead of the EV3. This is much faster and more convenient if you want to try out multiple algorithms and play with their parameters.</p>
+scaler <span style="color:#f92672">=</span> StandardScaler()
+scaler<span style="color:#f92672">.</span>fit(X_train)
 
+X_train <span style="color:#f92672">=</span> scaler<span style="color:#f92672">.</span>transform(X_train)
+X_test <span style="color:#f92672">=</span> scaler<span style="color:#f92672">.</span>transform(X_test)
+
+mlp <span style="color:#f92672">=</span> MLPClassifier(hidden_layer_sizes<span style="color:#f92672">=</span>(<span style="color:#ae81ff">13</span>,<span style="color:#ae81ff">13</span>,<span style="color:#ae81ff">13</span>),max_iter<span style="color:#f92672">=</span><span style="color:#ae81ff">500</span>)
+mlp<span style="color:#f92672">.</span>fit(X_train,y_train)
+
+predictions <span style="color:#f92672">=</span> mlp<span style="color:#f92672">.</span>predict(X_test)
+
+<span style="color:#66d9ef">print</span>(confusion_matrix(y_test,predictions))
+<span style="color:#66d9ef">print</span>(classification_report(y_test,predictions))
+</code></pre></div><p>Training the different models can be done on your computer instead of the EV3. This is much faster and more convenient if you want to try out multiple algorithms and play with their parameters.</p>
 <p>To figure out which model solves our problem the best, you can compare the results of the classification report and the confusion matrix. Below you can see the classification reports for logistic regression, MLP and support vector machines.</p>
-
-<p><img src="/images/logreg.png" alt="logreg" /></p>
-
-<p><img src="/images/mlp.png" alt="mlp" /></p>
-
-<p><img src="/images/svm.png" alt="svm" /></p>
-
+<p><img src="/images/logreg.png" alt="logreg"></p>
+<p><img src="/images/mlp.png" alt="mlp"></p>
+<p><img src="/images/svm.png" alt="svm"></p>
 <p>In my case, the support vector machine performed the best on the test data. In the classification reports for the MLP and the logistic regression model, you can see that both models had a hard time differentiating between 1 and 7 which is not surprising considering their similar shape. However, neither logistic regression nor the MLP model performed badly. For this particular problem, I would say that anything above 80% accuracy is a very good result. Just keep in mind: for the 8 classes (8 different digits to classify) anything over a 12.5% accuracy would be better than guessing the digit.</p>
-
 <p>Once you found the model that works best on your data, you can save that model with pickle or joblib and then import the trained models to your digit classifier script. This script should include your trained model and the line following algorithm of your choice. If you scaled your data, you should not forget to save and import the scaler as well. If you trained the model on your computer instead of the EV3, make sure that the library versions are equivalent on both machines.</p>
+<div class="highlight"><pre style="color:#f8f8f2;background-color:#272822;-moz-tab-size:4;-o-tab-size:4;tab-size:4"><code class="language-Python" data-lang="Python"><span style="color:#75715e"># Load model and scaler</span>
+loaded_model <span style="color:#f92672">=</span> pickle<span style="color:#f92672">.</span>load(open(<span style="color:#e6db74">&#39;./digit_models/trained_model.sav&#39;</span>, <span style="color:#e6db74">&#39;rb&#39;</span>))
+loaded_scaler <span style="color:#f92672">=</span> pickle<span style="color:#f92672">.</span>load(open(<span style="color:#e6db74">&#39;./digit_models/mlp_scaler.pkl&#39;</span>, <span style="color:#e6db74">&#39;rb&#39;</span>))
 
-<pre><code class="language-Python"># Load model and scaler
-loaded_model = pickle.load(open('./digit_models/trained_model.sav', 'rb'))
-loaded_scaler = pickle.load(open('./digit_models/mlp_scaler.pkl', 'rb'))
+<span style="color:#75715e"># Apply scaler</span>
+X_new <span style="color:#f92672">=</span> loaded_scaler<span style="color:#f92672">.</span>transform(X_new)
 
-# Apply scaler
-X_new = loaded_scaler.transform(X_new)
+<span style="color:#75715e"># Classify new data</span>
+y_new <span style="color:#f92672">=</span> loaded_model<span style="color:#f92672">.</span>predict(X_new)
 
-# Classify new data
-y_new = loaded_model.predict(X_new)
-
-# The robot tells you the predicted digit
-Sound.speak(str(y_new[0]))
-</code></pre>
-
-<h2 id="last-words">Last Words</h2>
-
+<span style="color:#75715e"># The robot tells you the predicted digit</span>
+Sound<span style="color:#f92672">.</span>speak(str(y_new[<span style="color:#ae81ff">0</span>]))
+</code></pre></div><h2 id="last-words">Last Words</h2>
 <p>I hope that this gave you a good idea on how to work with Machine Learning algorithms on the EV3. I have a few side notes that I didn’t know where to fit, but still think are important, so here it goes:</p>
-
 <h3 id="scikit-learn-vs-tensorflow">scikit-learn vs. TensorFlow</h3>
-
 <p>Initially, I wanted to use TensorFlow. However, TensorFlow doesn’t run well (or at all) on the EV3. In the end, I very much preferred scikit-learn over TensorFlow, as it provides more than enough algorithms to get started with Machine Learning and it is way easier to get into.</p>
-
 <h3 id="be-creative-for-me">Be creative (for me)</h3>
-
 <p>Although I highly doubt that this post will get a lot of readers: In case you&rsquo;re in that <em>&ldquo;I like computer science, education, robotics and machine learning&rdquo;</em> niche like me, please contact me if you have any other ideas for classification or regression problems or if you have feedback for this tutorial. As I mentioned before, I&rsquo;m currently working on my master thesis which you can read more about <a href="https://leenahere.github.io/blog/">here</a>. Criticism, tips, tricks and hints are highly appreciated.</p></div>
 
     
@@ -351,7 +284,7 @@ Sound.speak(str(y_new[0]))
 
         <footer>
 
-            <p class="copyright text-muted">&copy; All rights reserved. Powered by <a href="https://gohugo.io">Hugo</a> and <a href="https://github.com/calintat/minimal">Minimal</a></p>
+            <p class="copyright text-muted">© All rights reserved. Powered by <a href="https://gohugo.io">Hugo</a> and <a href="https://github.com/calintat/minimal">Minimal</a></p>
 
         </footer>
        

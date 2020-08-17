@@ -14,7 +14,7 @@
     }
 
     :root {
-        --accent: #7e8c91;
+        --accent: #ff6a00;
         --border-width:  5px ;
     }
 
@@ -60,7 +60,7 @@
 
 
 <script>$(document).on('click', function() { $('.collapse').collapse('hide'); })</script>
- <meta name="generator" content="Hugo 0.56.1" />
+ <meta name="generator" content="Hugo 0.74.3" />
         
 
         
@@ -153,48 +153,40 @@
 
 
     <br> <div class="content"><p>My main task the past two weeks was to figure out the learning objectives for a Machine Learning course.</p>
-
-<p><img src="/images/books.jpg" alt="books" /></p>
-
+<p><img src="/images/books.jpg" alt="books"></p>
 <p>This is not an easy task considering that most courses you find online are designed for adults, more specifically adults with a background in computer science or another STEM field. Therefore, my work this week focused on the following three subtasks:</p>
-
 <ol>
 <li>Examine different ML online courses and summarize the main learning objectives</li>
 <li>Look into teaching contents of german math classes (grade 8 to 12)</li>
 <li>Merge these outcomes to compose the learning objectives for my course</li>
 </ol>
-
 <p>One and Two were quite straightforward. Three? Not so much…</p>
-
 <h2 id="1-examining-existing-ml-courses">1. Examining existing ML courses</h2>
-
 <h3 id="ml-coursera">ML Coursera</h3>
-
 <p>The first course I examined is probably the most popular ML course in the history of mankind: <a href="https://www.coursera.org/learn/machine-learning">Machine Learning</a> by Andrew Ng (Stanford University). This is the curriculum in a nutshell:</p>
-
 <ul>
 <li>Supervised/Unsupervised Learning</li>
 <li>Linear Regression
-
 <ul>
 <li>Cost Function</li>
 <li>Gradient Descent</li>
-</ul></li>
+</ul>
+</li>
 <li>Review of Linear Algebra
-
 <ul>
 <li>Matrices and Vectors</li>
 <li>Addition and Multiplication</li>
-</ul></li>
+</ul>
+</li>
 <li>Logistic Regression (+ Classification)</li>
 <li>Regularization (+ Overfitting)</li>
 <li>Neural Networks
-
 <ul>
 <li>Model Representation</li>
 <li>Multiclass Classification</li>
 <li>Backpropagation</li>
-</ul></li>
+</ul>
+</li>
 <li>Error Analysis</li>
 <li>Precision and Recall</li>
 <li>Support Vector Machines</li>
@@ -204,13 +196,9 @@
 <li>Recommender Systems</li>
 <li>Large Scale ML (+ Stochastic and Mini-Batch Gradient Descent)</li>
 </ul>
-
 <p>This course is most definitely aimed at computer science students or someone with a computer science background. I guess if you&rsquo;re very tech savvy and willing, you could do the course with no programming experience whatsoever. However, all the exercises are done in MATLAB/Octave which arguably is easier than learning Python or R. But in my opinion a basic knowledge of programming is required to master the tasks. Not to mention the mathematical understanding that exceeds the basic maths that are taught in German schools.</p>
-
 <h3 id="the-hundred-page-machine-learning-book">The Hundred-Page Machine Learning Book</h3>
-
 <p>The next work I looked at was a book called <a href="http://themlbook.com">&ldquo;The Hundred-Page Machine Learning Book&rdquo;</a> written by Andriy Burkov. This book was released in 2018 and has since been hyped as one the best ML books out there. Again, this book is designed for adults with a background in computer science or  who work in tech already. Besides the basic introduction to ML and a guide for all the mathematical notations the book has a comprehensive chapter about fundamental algorithms:</p>
-
 <ul>
 <li>Linear Regression</li>
 <li>Logistics Regression</li>
@@ -218,45 +206,27 @@
 <li>Support Vector Machine</li>
 <li>k-Nearest Neighbours</li>
 </ul>
-
 <p>Moreover, the author dedicates a whole chapter to Neural Networks and Deep Learning.</p>
-
 <h3 id="posts-on-medium">Posts on Medium</h3>
-
 <p>As a last step, I looked for ML tutorials and informative posts on Medium. With platforms like &ldquo;Towards Data Science&rdquo; and &ldquo;Hackernoon&rdquo;, different authors offer a lot of great posts about this topic. I tried to find posts and tutorials that were either very high level or focused on the mathematical side of things.</p>
-
 <p><em><a href="https://medium.com/@ageitgey/machine-learning-is-fun-80ea3ec3c471">Machine Learning is Fun!</a> by Adam Geitgey</em></p>
-
 <p>This is a series consisting of 8 parts about neural networks and sample applications. It does a great job at explaining the basics of neural networks.</p>
-
 <p><em><a href="https://becominghuman.ai/cheat-sheets-for-ai-neural-networks-machine-learning-deep-learning-big-data-678c51b4b463">Cheat Sheets for AI, Neural Networks, Machine Learning, Deep Learning &amp; Big Data</a> by Stefan Kojouharov</em></p>
-
 <p>Although the title could be easily summarized by just saying &ldquo;Cheat Sheets for AI&rdquo;, it a nice collection of cheat sheets which give you a good overview.</p>
-
 <p><em><a href="https://medium.freecodecamp.org/ai-and-machine-learning-how-to-learn-them-visually-79a56d9b7dbb">AI and Machine Learning: How to Learn them Visually</a> by JavaScript Teacher</em></p>
-
 <p>This tutorial includes a good visual representation of the maths behind neural networks.</p>
-
 <p><em><a href="https://towardsdatascience.com/https-medium-com-piotr-skalski92-deep-dive-into-deep-networks-math-17660bc376ba">Deep Dive into Math Behind Deep Networks</a> by Piotr Skalski</em></p>
-
 <p>Again, a great tutorial about the maths behind neural networks. However, as the title states, this is a deep dive for people with a computer science background.</p>
-
 <h2 id="2-math-curriculum-from-grade-8-to-12">2. Math Curriculum from Grade 8 to 12</h2>
-
 <p>For my thesis I decided to aim the course at teenagers from grade 8 to grade 12. There are <a href="https://machinelearningforkids.co.uk/?lang=en">attempts</a> to teach kids how Machine Learning works. This is great for raising children&rsquo;s awareness for the high-tech world they grow up in, but in my opinion this is a very different objective than the one my thesis pursues. I want teenagers or young adults to understand and apply ML algorithms, so that they feel comfortable/excited to pursue academic training in this field. Therefore, the students already need to have a basic knowledge of the mathematics of ML. To ensure that this is the case for my potential target audience, I examined the <a href="https://www.schule.sachsen.de/lpdb/web/downloads/1530_lp_gy_mathematik_2013.pdf?v2">curriculum of Saxony</a> for grade 8 to grade 12. Why just Saxony you may ask? Because for insane and idiotic reasons curricula are different in each state in Germany and comparing and summarizing the curricula of all states would go beyond the scope of this thesis. Since I study in Saxony and my focus group will most likely go to school in Saxony, this is the state I decided on. Fortunately, Saxony is also the right choice from a scientific standpoint, as <a href="https://www.bpb.de/gesellschaft/bildung/zukunft-bildung/216418/mathematik-kompetenzen-von-neuntklaesslern-in-den-bundeslaendern-2012">students in Saxony have the best skills in mathematics</a> compared to all other states.</p>
-
 <p>The mathematics of ML can be summarized as follows:</p>
-
 <ul>
 <li>Linear Algebra</li>
 <li>Probability Theory &amp; Statistics</li>
 <li>Multivariate Calculus</li>
 </ul>
-
 <p>This might sound a lot more complicated and sophisticated than it actually is. Of course, if you deep dive into the mathematics of ML it can get quite complicated. However, the fundamental basics are already taught in german high schools. Below I listed all learning objectives in math class from grade 8 to 12 in Saxony that I think are relevant for a ML course for high school students.</p>
-
 <p><strong>Grade 8:</strong></p>
-
 <ul>
 <li>Events and Their Probabilities</li>
 <li>Path Multiplication Rule (probability)</li>
@@ -265,17 +235,13 @@
 <li>Linear Equation Systems</li>
 <li>Heuristic Strategies</li>
 </ul>
-
 <p><strong>Grade 9:</strong></p>
-
 <ul>
 <li>Power Functions with Natural Exponents (square functions)</li>
 <li>Square Equations</li>
 <li>Evaluating Data</li>
 </ul>
-
 <p><strong>Grade 10:</strong></p>
-
 <ul>
 <li>Growth Processes</li>
 <li>Logistic Growth</li>
@@ -285,9 +251,7 @@
 <li>Linking and Concatenating Functions</li>
 <li>Function Classes</li>
 </ul>
-
 <p><strong>Grade 11:</strong></p>
-
 <ul>
 <li>Derivatives</li>
 <li>Function Properties</li>
@@ -295,24 +259,16 @@
 <li>Vectors &amp; Planes</li>
 <li>Bayes&rsquo; Theorem</li>
 </ul>
-
 <p><strong>Grade 12:</strong></p>
-
 <ul>
 <li>Differential Equations</li>
 <li>Matrices</li>
 </ul>
-
 <p>This analysis shows that even after 12th grade students lack knowledge in multivariate calculus and linear algebra that are relevant for fully understanding ML algorithms. However, the fundamentals of linear algebra and probability theory are already taught in 8th grade. Ideally, the course could be taught in or right after grade 11, as students are introduced to very specific topics of ML mathematics. A hands-on ML course could even be beneficial for consolidating the knowledge gained in math class. That being said, the learning objectives can definitely be eased to accommodate students starting 9th grade.</p>
-
 <h2 id="3-the-learning-objectives">3. The Learning Objectives</h2>
-
 <p>As I mentioned in the beginning of the post, composing the learning objectives for the course wasn&rsquo;t easy. To be completely honest, I haven&rsquo;t yet decided on the algorithms I want to include in the course. To me the process of the course is a lot clearer than the learning objectives.</p>
-
 <p>The students should solve a problem with the help of ML algorithms. It is important to me that at least two algorithms, if not three, can be benchmarked in their performance. Furthermore, everything connected to the ML process like the preparation of the training data and the evaluation of the algorithms should be realized by the students.</p>
-
 <p>The following algorithms are currently on my shortlist:</p>
-
 <ul>
 <li>Linear/Logistic Regression</li>
 <li>Support Vector Machines</li>
@@ -320,10 +276,8 @@
 <li>Feed Forward Neural Networks</li>
 <li>(Convolutional Neural Networks)</li>
 </ul>
-
 <p>The next step will be to find an appropriate problem. The first thing I will attempt to implement is a line-following robot that can classify numbers depending on the path it took. Probably this is the disguised Hello World!, MNIST kind of problem. I&rsquo;ll let you know if this is a sufficient task for some of the algorithms on my shortlist. See ya soon!</p>
-
-<p><img src="https://media.giphy.com/media/l4FGDzY383S7uZqDe/giphy.gif" alt="See ya" /></p></div>
+<p><img src="https://media.giphy.com/media/l4FGDzY383S7uZqDe/giphy.gif" alt="See ya"></p></div>
 
     
     
@@ -336,7 +290,7 @@
 
         <footer>
 
-            <p class="copyright text-muted">&copy; All rights reserved. Powered by <a href="https://gohugo.io">Hugo</a> and <a href="https://github.com/calintat/minimal">Minimal</a></p>
+            <p class="copyright text-muted">© All rights reserved. Powered by <a href="https://gohugo.io">Hugo</a> and <a href="https://github.com/calintat/minimal">Minimal</a></p>
 
         </footer>
        

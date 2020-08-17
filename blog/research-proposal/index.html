@@ -14,7 +14,7 @@
     }
 
     :root {
-        --accent: #7e8c91;
+        --accent: #ff6a00;
         --border-width:  5px ;
     }
 
@@ -60,7 +60,7 @@
 
 
 <script>$(document).on('click', function() { $('.collapse').collapse('hide'); })</script>
- <meta name="generator" content="Hugo 0.56.1" />
+ <meta name="generator" content="Hugo 0.74.3" />
         
 
         
@@ -151,60 +151,35 @@
 
 
     <br> <div class="content"><p>Initially, I was asked to write the related work abstract for my thesis this week to summarize all the relevant papers and other sources I&rsquo;ve stumbled upon so far.</p>
-
 <p>While googling (yes, I google a lot these days) how to best write related work abstracts, I figured why not do some general research on master thesis requirements (yes, I should&rsquo;ve probably googled that a while ago). It didn&rsquo;t take long before I first read something about research proposals and apparently, these are a thing judging from the sheer amount of &ldquo;How to write your research proposals&rdquo; posts. Admittedly, research proposals are more relevant for other fields or when you need to go begging around for funding for your project.</p>
-
 <p>However, the more I read about them, the more I got the feeling I had to write one for myself and here&rsquo;s why.</p>
-
-<p><img src="/images/stabilo.jpg" alt="stabilo" />
+<p><img src="/images/stabilo.jpg" alt="stabilo">
 <em>Photo by Kelly Sikkema on Unsplash</em></p>
-
 <p>Clearly stating your motivation for your thesis somewhere is always a good idea. You can come back to these statements when in doubt about your intrinsic motivation. When I recall the doubts I had in my last post, I&rsquo;m sure writing down my motivation beforehand would&rsquo;ve helped a lot.</p>
-
 <p>After my research week, I had a very clear idea of what I wanted to achieve. Nevertheless, I had a hard time explaining it to others. With a six month project there&rsquo;s just so much that needs to be done and giving a good overview can be challenging. Again, this gets so much easier, when you write it down.</p>
-
 <p>I definitely had a clear idea of what I want to achieve, but I didn&rsquo;t put a lot thought into what I actually could achieve in a time span of six months. I needed a project plan for sure which is always part of a research proposal at least on a high level. Now, I have an entire project plan that I can stick to. Moreover, I know that my aims are achievable in a time span of six months.</p>
-
 <p>I wrote the research proposal in LaTeX. Online I found this neat and clean <a href="http://teaching.csse.uwa.edu.au/units/CITS4008/">LaTeX template</a> which I altered a bit. Considering the aforementioned points I compiled the following outline:</p>
-
 <ul>
 <li>Motivation</li>
 <li>Aim</li>
 <li>Plan</li>
 </ul>
-
 <p>The aim section basically replaces the related work abstract for now. When I write the related work abstract for my thesis it has to be a lot more detailed of course. Below you can find the three sections of my proposal (I tried my best to be scientific with that whole Markdown setup of the blog).</p>
-
 <h3 id="motivation">Motivation</h3>
-
 <p>The German education system is on the verge of raising a generation of digital illiterates. In 2018, this was one of the key topics of the <em>Annual Report on Research, Innovation and Technological Performance in Germany</em>. Computer Science (CS) education already starts in primary school in countries like the UK. On the contrary, in Germany CS education starts in secondary school at the earliest and initiatives towards up to date CS education are below average in international comparison <a href="https://www.e-fi.de/fileadmin/Gutachten_2018/EFI_Gutachten_2018.pdf">[1]</a>. This is why the comission of experts identified a strong demand for action in the education sector.</p>
-
 <p>In addition, this years&rsquo; and last years&rsquo; <em>Annual Report on Research, Innovation and Technological Performance in Germany</em> both had a strong focus on Artifical Intelligence (AI) with the key topics <em>Autonomous Systems</em> in 2018 and <em>The AI Strategy of the Government</em> in 2019. The 2019 report identifies a rising need for professionals in the field and demands further funding of underlying research so that Germany can keep up with the international competition in the future <a href="https://www.e-fi.de/fileadmin/Gutachten_2019/EFI_Gutachten_2019.pdf">[2]</a>. Furthermore, AI is in a cultural crisis. According to <a href="https://ainowinstitute.org/discriminatingsystems.html">[3]</a>, <a href="http://www3.weforum.org/docs/WEF_GGGR_2018.pdf">[4]</a> and <a href="http://cdn.aiindex.org/2018/AI%20Index%202018%20Annual%20Report.pdf">[5]</a> there is a great diversity issue in the field. In Germany only 16 percent of professionals with AI skills are female <a href="http://www3.weforum.org/docs/WEF_GGGR_2018.pdf">[4]</a>. In order to increase diversity, women and other minorities need to be motivated for computer science in general and the AI field in particular.</p>
-
 <p>As education is the best catalyst for changes, the German education system must undergo reformation. The proposed research should be seen as a small step into the right direction of tackling the aforementioned problems: CS education, the rising need for AI professionals and the diversity gap in AI.</p>
-
 <h3 id="aim">Aim</h3>
-
 <p>The aim of this master thesis is to develop a platform that can be deployed in high schools to introduce Machine Learning (ML) algorithms to students. ML is a subset of AI that gives computers the ability to learn without being explicitly programmed. The platform will not require any prior knowledge of computer science or programming skills. This key feature will be achieved through developing a block-like programming language. Related works are <a href="https://ieeexplore.ieee.org/document/8506504">[6]</a>, <a href="https://scratch.mit.edu">[7]</a>\cite{maloney_scratch_2010} and <a href="https://think.cs.vt.edu/blockpy/">[8]</a>.</p>
-
 <p>In order to match current trends and efforts in CS education, the platform will specifically be developed for the use of <a href="https://www.lego.com/mindstorms/">LEGO Mindstorms</a>. Educational Robotics (ER) have been a substantial component of CS education for decades <a href="http://worrydream.com/refs/Papert%20-%20Mindstorms%201st%20ed.pdf">[9]</a> and are more relevant than ever<a href="https://www.researchgate.net/publication/328880952_Nutzung_von_Robotern_im_Informatikunterricht_-_ein_Losungsvorschlag">[10]</a>, <a href="http://uibk.ac.at/iup/buch_pdfs/robotics_workshop_2018/10.152033187-22-1-08.pdf">[11]</a>, <a href="http://www.terecop.eu/downloads/chapter_1.pdf">[12]</a>. Similar to the <a href="https://lab.open-roberta.org">Open Roberta Lab</a>, students should be able to apply ML algorithms to certain tasks via a web application and then run the produced code on the LEGO Mindstorms. In general, the platform should be aligned to the Open Roberta Lab and the corresponding programming language NEPO, as this is an open source project which is widely used in Germany. Thus, teachers and students will already be familiar with the basic concept of the platform.</p>
-
 <p>It is conceivable that in the future the platform could support other robots like <a href="https://www.softbankrobotics.com/emea/nao">Nao</a>, a humanoid robot. However, since LEGO Mindstorms are the prominent robots in CS education and in ML lectures at universities <a href="https://dl.acm.org/citation.cfm?doid=563517.563345">[13]</a>, <a href="https://www.ijcaonline.org/archives/volume157/number1/mosavi-2017-ijca-911661.pdf">[14]</a>, <a href="https://www.researchgate.net/publication/228953260_Lego_Mindstorms_Robots_as_a_Platform_for_Teaching_Reinforcement_Learning">[15]</a>, they are favorable for this thesis.</p>
-
 <p>In the scope of this master thesis, appropriate tasks (e.g. line following) should be compiled alongside the educational platform itself. Moreover, a preliminary study with a focus group of high school students will be conducted to verify whether the tools and concepts to be developed are effective.</p>
-
 <h3 id="plan">Plan</h3>
-
 <p>The work has to be completed within 6 months. Assuming the master thesis is going to be registered at the beginning of June 2019, it has to be finished by December 2019. As a consequence, the following time schedule has been compiled which should lead to a successful completion of the aims described above.</p>
-
-<p><img src="/images/timeline.png" alt="timeline" /></p>
-
+<p><img src="/images/timeline.png" alt="timeline"></p>
 <p>As a first step, the teaching and learning contents have to be specified. That is why I will first test and assess different ML online courses to work out the main educational objectives. Once these are set, I will determine appropriate tasks for lessons by examining existing programs for the LEGO Mindstorms.</p>
-
 <p>As soon as the educational objectives and tasks are established, I can start with the requirement specifications for the application. This implies assessing both the user perspective and the product perspective. Moreover, this will include the more specific system design, particularly technical specifications such as frameworks and programming languages.</p>
-
 <p>The actual development phase is going to be the most time consuming part. It is important to make sure that this phase does not inflate due to the addition of too many features. The platform to be developed should be seen as a minimum viable product. There needs to be time for the study afterwards, as testing the idea on students is crucial for this research work.</p>
-
 <p>Writing the first chapters of the thesis should be done alongside the development phase and the study. Once the study is completed, the focus should be on the writing process. The main part should be done by the end of October. This ensures enough time for revisions in November and an on-time submission.</p></div>
 
     
@@ -218,7 +193,7 @@
 
         <footer>
 
-            <p class="copyright text-muted">&copy; All rights reserved. Powered by <a href="https://gohugo.io">Hugo</a> and <a href="https://github.com/calintat/minimal">Minimal</a></p>
+            <p class="copyright text-muted">© All rights reserved. Powered by <a href="https://gohugo.io">Hugo</a> and <a href="https://github.com/calintat/minimal">Minimal</a></p>
 
         </footer>
        
