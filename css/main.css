@@ -61,7 +61,7 @@ img + em {
 /*apply accent colour to links*/
 
 a:link, a:visited {
-    color: #b3b3b3;
+    color: var(--accent);
 }
 
 a.icon:hover {
