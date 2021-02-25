@@ -42,7 +42,7 @@ img + em {
 }
 
 .intro > h1 {
-    color: #3a3a3a;
+    color: var(--accent);
     font-size: 8vh;
 }
 
@@ -61,7 +61,7 @@ img + em {
 /*apply accent colour to links*/
 
 a:link, a:visited {
-    color: var(--accent);
+    color: #b3b3b3;
 }
 
 a.icon:hover {
